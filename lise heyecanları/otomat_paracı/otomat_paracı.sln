@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "otomat_paracı", "otomat_paracı\otomat_paracı.vbproj", "{58D83FC2-2869-4525-9AE2-3B592F08BAFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58D83FC2-2869-4525-9AE2-3B592F08BAFF}.Debug|x86.ActiveCfg = Debug|x86
+		{58D83FC2-2869-4525-9AE2-3B592F08BAFF}.Debug|x86.Build.0 = Debug|x86
+		{58D83FC2-2869-4525-9AE2-3B592F08BAFF}.Release|x86.ActiveCfg = Release|x86
+		{58D83FC2-2869-4525-9AE2-3B592F08BAFF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

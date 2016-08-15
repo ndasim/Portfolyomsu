@@ -1,0 +1,26 @@
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\bin\Debug\oyun1.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\bin\Debug\oyun1.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\bin\Debug\oyun1.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.fiz.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\oyun1.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\oyun1.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\oyun1.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\oyun1.exe
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\oyun1.xml
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\oyun1.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\bin\Debug\oyun1.exe
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\bin\Debug\oyun1.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\bin\Debug\oyun1.xml
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.fiz.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\oyun1\oyun1\obj\x86\Debug\GenerateResource.write.1.tlog

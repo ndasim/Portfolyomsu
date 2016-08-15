@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kare {
+	position:absolute;
+	background-image:url(tema/kare/arka1.png);
+	background-repeat:no-repeat;
+	height:248px;
+	width:500px;
+	left: 10px;
+	top: 0px;
+}
+
+#baslik {
+	background-color:#D7CBB5;
+	width:800px;
+	height:200px;
+	background-image: url(tema/baslik/baslik.png);
+}
+
+#menuzmn {
+	background-image:url(tema/menu/zemin.png);
+	background-repeat:no-repeat;
+	width:900px;
+	height:70px;
+	padding-top: 10px;
+	position: relative;
+	left: auto;
+}
+
+body {
+	background-color:#F5DA7A;
+	color:#FFFFFF;
+}
+
+#menuzmn ul li {
+	float:left;
+	width:160px;
+	height:70px;
+	list-style-type: none;
+	z-index: 1;
+} 
+
+#menuodak {
+	background-image:url(tema/menu/secili3.png);
+	background-repeat:no-repeat;
+	height:39px;
+	width:148px;
+	position:absolute;
+	left: 40px;
+	z-index: 2;
+	top: 20px;
+}
+
+#tasiyici {
+	position:absolute;
+	left: 17px;
+	top: 0px;
+	height:500px;
+	width: 511px;
+	overflow:hidden;
+}
+
+#liste {
+	height:40px;
+	z-index:1;
+}
+
+#frame {
+
+}
+
+#isaret {
+	position:absolute;
+	background-image:url(tema/menu/secilcek.png);
+	background-repeat:no-repeat;
+	width:145px;
+	height:13px;
+	left: 54px;
+	top: 45px;
+}
+
+#yapim {
+	color:#000000;
+	font-size:70px;
+} 
+
+#ref {
+	position:absolute;
+	left:573px;
+	top: 8px;
+	
+}
+
+#ilet {
+	position:absolute;
+	left:573px;
+	top: 236px;
+	
+}
+
+#gönd{
+	background-image:url(tema/diger/gonder.png);
+	position:absolute;
+	left: 308px;
+	width: 162px;
+	height: 58px;
+	background-repeat: no-repeat;
+	top: 264px;
+}
+
+#gönd:hover {
+background-image:url(tema/diger/gonderu.png);
+}
+
+#tmzle{
+	position:absolute;
+	background-repeat:no-repeat;
+	background-image:url(tema/diger/tmzle.png);
+	left: 50px;
+	top: 262px;
+	width: 161px;
+	height: 60px;
+}
+
+#tmzle:hover {
+background-image:url(tema/diger/tmzleu.png);
+}
+
+#iletsim{
+	position:absolute;
+	left: 514px;
+	top: 16px;
+	width: 400px;
+	height: 300px;
+}

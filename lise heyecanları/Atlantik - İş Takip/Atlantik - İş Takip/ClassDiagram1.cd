@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="Atlantik___İş_Takip.Dökümbirim" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Dökümbirim.vb</FileName>
+      <HashCode>JAAAQBRAAgAAEAAAAAAAEACAAIAAAAAAAQBgAAAWAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Atlantik___İş_Takip.Yapıdkmpln" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Yapıdökümplan.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAEAgAAAEAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Atlantik___İş_Takip.Birimkydırma" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Olaylar.vb</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAQAIAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

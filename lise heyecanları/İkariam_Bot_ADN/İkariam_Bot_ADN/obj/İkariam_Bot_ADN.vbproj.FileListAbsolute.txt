@@ -1,0 +1,16 @@
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\bin\Debug\İkariam_Bot_ADN.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\bin\Debug\İkariam_Bot_ADN.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\bin\Debug\İkariam_Bot_ADN.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.Adn.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.Ekran.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.vbproj.GenerateResource.Cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.Ana.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.Bekle.resources
+D:\flash\falsh\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.exe
+D:\flash\falsh\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.xml
+D:\flash\falsh\ADN Yazılım\2005\İkariam_Bot_ADN\İkariam_Bot_ADN\obj\Debug\İkariam_Bot_ADN.pdb

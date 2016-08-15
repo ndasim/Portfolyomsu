@@ -1,0 +1,214 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Atamanlar Grup</title>
+		<link rel="stylesheet" href="../../kutuphane/scripts/css/style.css" type="text/css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="kutuphane/scripts/css/ie7.css" type="text/css" />
+		<![endif]-->
+        
+        <link href="script/style.less" rel="stylesheet/less" type="text/css">
+		
+		<script src="../../kutuphane/scripts/js/temel.js"></script>
+		<script src="../../kutuphane/scripts/js/tabla.js"></script>
+		
+        
+		<script src="../../kutuphane/scripts/js/jquery-1.10.2.min.js"></script> 
+		<script src="../../kutuphane/scripts/js/jquery.lightbox.js"></script>
+        <script src="../../kutuphane/scripts/js/less-1.7.4.min.js"></script>
+        
+        <script>
+            function kurr(){
+                $(".jsTabla").each(function(){
+                    var ntabla = new tabla({id: $(this).attr('id'), style: "position:relative; left:-8px; top:-8px", tempDir: "../../kutuphane/ekgorsel/tabla", tempExt: "png", borderWidth: 8, height: $(this).css("height").match('[0-9]+'), width: $(this).css("width").match('[0-9]+')});
+                    ntabla.kur();
+                    //var l = this.children.length
+                    while (this.children.length > 0){
+                        ntabla.appendChild(this.children[0]);  
+                    } 
+                        
+                    this.appendChild(ntabla.obje);
+                });
+                
+                $(".jsResTabla").each(function(){
+                    var ntabla = new tabla({id: $(this).attr('id'), style: "position:relative; left:-8px; top:-8px", tempDir: "../../kutuphane/ekgorsel/tabla/res", tempExt: "png", borderWidth: 8, height: $(this).css("height").match('[0-9]+'), width: $(this).css("width").match('[0-9]+')});
+                    ntabla.kur();
+                    //var l = this.children.length
+                    while (this.children.length > 0){
+                        ntabla.appendChild(this.children[0]);  
+                    } 
+                        
+                    this.appendChild(ntabla.obje);
+                });
+                
+                kur();
+            }
+        </script>
+        
+	</head>
+	<body onload="kurr()">
+		<div id="sayfaid" style="display:none">emlakAna</div>
+		
+		<div class="page">
+			<div class="header">
+				<a href="index.html" id="logo"><img src="../../kutuphane/temelgorsel/logo.gif" alt="" style="position:relative; top:-20px"/></a>
+				<ul>
+					<li class="selected"><a href="../../index.html">Anasayfa</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+			</div>
+			
+			<div class="body">
+                <div id="slayt" class="jsTabla" style="position:relative; display:inline-block; top:8px; width:540px; height:390px;">
+                    <div class="jsResTabla" style="position:absolute; display:inline-block; left:40px; top:40px; width:430px; height:320px;">
+                        <img src="gorsel/01.jpg" style="position:absolute; left:-7px; top:-7px; height:330px; width:440px;">
+                    </div>
+                    <div class="jsTabla" style="position:absolute; top:315px; left:20px; width:210px; height:60px;">
+                        <p style="position:absolute; color:#124BF8; font-size:40px; left:0px; top:20px; width:250"><b style="display:inline; font-weight:normal; font-size:60px; font-family: 'RokkittRegular';">200</b><b style="position:relative; left:5px;">000 TL</b></p>
+                    </div>
+                    <div class="jsTabla" style="position:absolute; top:20px; left:390px; width:135px; height:165px;">
+                        <p id="slaytbilgi">
+                            <b>Satılık Villa</b>
+                            <span>3 + 2</span>
+                            <span>KOMBILI</span>
+                            <span>SIFIR</span>
+                            <span id="yer">Trabzon/Maçka</span>
+                        </p>
+                    </div>
+                </div>
+                <div id="arama" class="jsTabla" style="position:relative; display:inline-block; top:8px; left:40px; width:360px; height:390px;">
+                    <div><p>ILAN ARA</p></div>
+                    <div class='aramasira'>
+                        <div id="a"><p>İlan türü:</p></div>
+                        <div id="b">
+                            <select>
+                                <option>Konut</option>
+                                <option>Arsa</option>
+                                <option>Ticari/Ofis</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p>Oda tipi:</p></div>
+                        <div id="b">
+                            <select>
+                                <option>1+1</option>
+                                <option>2+1</option>
+                                <option>3+1</option>
+                                <option>3+2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p>Lorem ipsum:</p></div>
+                        <div id="b">
+                            <select>
+                                <option>Sit dolor amet</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p>Fiyat-Aralıgı:</p></div>
+                        <div id="b">
+                            <input type="text" style="width:73px;"/>
+                            -
+                            <input type="text" style="width:73px;"/>
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p>Metrekare:</p></div>
+                        <div id="b">
+                            <input type="text" style="width:73px;"/>
+                            -
+                            <input type="text" style="width:73px;"/>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ////////////////// -->
+                
+                <!-- ////////////////// -->
+            
+                <div id="siralama" class="jsTabla">
+                    <div class='aramasira'>
+                        <div id="a"><p>Sırala:</p></div>
+                        <div id="b">
+                            <select>
+                                <option>Fiyata Göre</option>
+                                <option>Tarihe Göre</option>
+                                <option>Alana göre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p>İl:</p></div>
+                        <div id="b">
+                            <select>
+                                <option>Trabzon</option>
+                                <option>Rize</option>
+                                <option>Giresun</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p>Kombili:</p></div>
+                        <div id="b">
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p>İkinci El:</p></div>
+                        <div id="b">
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                    <div class='aramasira'>
+                        <div id="a"><p></p></div>
+                        <div id="b">
+                            <input type="button" value="Sırala" />
+                        </div>
+                    </div>
+                </div>
+                
+                <!--- //////////////// -->
+                
+                <!--- //////////////// -->
+                
+                <div id="grid">
+                    <div class="gridEleman jsTabla">
+                        <div id="a">
+                        
+                        </div>
+                        <div id="b">
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="gridEleman jsTabla">
+                        <div id="a">
+                        
+                        </div>
+                        <div id="b">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="footer">
+				<ul>
+					<li><a href="index.html">Anasayfa</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+				<p>&#169; Copyright &#169; 2014. Atamanlar Grup Tüm Hakları Saklıdır</p>
+				<div class="connect">
+					<a href="http://facebook.com/atamanlargrup" id="facebook">facebook</a>
+					<a href="http://twitter.com/atamalargrup" id="twitter">twitter</a>
+					<a href="http://www.youtube.com/atamanlargrup" id="vimeo">vimeo</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>  

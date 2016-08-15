@@ -1,0 +1,24 @@
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\bin\Debug\Gif Hazırlama.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\bin\Debug\Gif Hazırlama.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\bin\Debug\Gif Hazırlama.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\bin\Debug\Gif.Components.dll
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\Gif_Hazırlama.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\Gif_Hazırlama.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.vbproj.GenerateResource.Cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Gif Hazırlama\Gif Hazırlama\obj\Debug\Gif_Hazırlama.trigo.resources
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.exe
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.xml
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.pdb
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\bin\Debug\Gif Hazırlama.exe
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\bin\Debug\Gif Hazırlama.pdb
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\bin\Debug\Gif Hazırlama.xml
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\bin\Debug\Gif.Components.dll
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\Gif_Hazırlama.Form1.resources
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\Gif_Hazırlama.Resources.resources
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\Gif_Hazırlama.trigo.resources
+C:\Users\Eren\Desktop\ADN Yazılım\2005\Gif hazırlama\Gif Hazırlama\obj\Debug\Gif Hazırlama.vbproj.GenerateResource.Cache

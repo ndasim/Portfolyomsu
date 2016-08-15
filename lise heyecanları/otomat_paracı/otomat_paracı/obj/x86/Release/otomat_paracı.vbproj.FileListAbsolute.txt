@@ -1,0 +1,14 @@
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\bin\Release\otomat_paracı.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\bin\Release\otomat_paracı.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\bin\Release\otomat_paracı.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.Ana.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.Form2.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.inclare.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\otomat_paracı\otomat_paracı\obj\x86\Release\otomat_paracı.pdb

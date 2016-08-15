@@ -1,0 +1,10 @@
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\bin\Debug\Atlantik - İş Takip.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\bin\Debug\Atlantik - İş Takip.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\bin\Debug\Atlantik - İş Takip.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\obj\Debug\Atlantik___İş_Takip.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\obj\Debug\Atlantik___İş_Takip.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\obj\Debug\Atlantik - İş Takip.vbproj.GenerateResource.Cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\obj\Debug\Atlantik - İş Takip.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\obj\Debug\Atlantik - İş Takip.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Atlantik - İş Takip\Atlantik - İş Takip\obj\Debug\Atlantik - İş Takip.pdb

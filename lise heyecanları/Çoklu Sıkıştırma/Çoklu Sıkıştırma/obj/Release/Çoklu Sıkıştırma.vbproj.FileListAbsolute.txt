@@ -1,0 +1,10 @@
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Release\Çoklu Sıkıştırma.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Release\Çoklu Sıkıştırma.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Release\Çoklu Sıkıştırma.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Release\Çoklu_Sıkıştırma.Form1.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Release\Çoklu_Sıkıştırma.Resources.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Release\Çoklu Sıkıştırma.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Release\Çoklu Sıkıştırma.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Release\Çoklu Sıkıştırma.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Release\Çoklu Sıkıştırma.pdb

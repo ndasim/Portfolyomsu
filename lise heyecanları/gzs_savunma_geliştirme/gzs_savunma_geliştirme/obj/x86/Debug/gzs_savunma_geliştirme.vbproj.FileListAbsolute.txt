@@ -1,0 +1,24 @@
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\bin\Debug\gzs_savunma_geliştirme.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\bin\Debug\gzs_savunma_geliştirme.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\bin\Debug\gzs_savunma_geliştirme.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.Aktif_nesne.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.exe
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.xml
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\bin\Debug\gzs_savunma_geliştirme.exe
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\bin\Debug\gzs_savunma_geliştirme.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\bin\Debug\gzs_savunma_geliştirme.xml
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.Form1.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.Aktif_nesne.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\gzs_savunma_geliştirme.Resources.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\gzs_savunma_geliştirme\gzs_savunma_geliştirme\obj\x86\Debug\GenerateResource.write.1.tlog

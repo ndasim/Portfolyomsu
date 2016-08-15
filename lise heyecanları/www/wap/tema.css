@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+img, a img{
+	border:0;
+}
+
+.gircubuk{
+	color:#FFFFFF;
+	background-color:#CC9900;
+}
+
+* {
+	margin: 0px;
+}
+
+a {
+	color:#FFFFFF;
+	
+}
+
+#posta_tab a{
+	color:#CC3300;
+}
+
+table a{
+	color:#000000;
+	/*padding:4px;*/
+	text-decoration: none;
+}
+
+a[title~="a"] {
+	color:#CC3300;
+	padding:4px;
+	font-weight:bold;
+}
+
+a[title~="b"] {
+	color:#CC3300;
+	padding:4px;
+	font-weight:bold;
+}
+
+p {
+	padding: 4px;
+	display: block;
+}
+
+.sayfa_gostergec{
+	background:#CC6600;
+	color:#CC6600;
+}
+
+.sayfa_gostergec a{
+	background:#CC6600;
+	text-decoration:none;
+}
+
+.altmenu{
+	background:#CC6600;
+}
+
+.govde{
+	color: #FFFFFF;
+	background-color:#CC6600;
+	padding-left: 15px;
+}
+
+.arkmenu a{
+	color: #CC3300;
+	text-align: middle;
+}
+
+.baslik {
+	background:#CC3300; 
+	color:#FFFFFF;
+}
+
+.altbaslik {
+	background:#CC6600; 
+	color:#FFFFFF;
+}
+
+.listetab {
+	border-bottom:#CC6600 dotted 1px;
+}
+
+.listetab #ilk {
+	border-right:#CC6600 dotted 1px; 
+	padding-right:5px;
+}
+
+.yancizgi {
+	padding-right:5px;
+	border-right:#FFFFFF dotted 2px;
+}
+
+.siyah {
+	color:#000000;
+}
+
+.yazi {
+	color:#CC3300;
+}
+
+.yazi a{
+	color:#CC3300;
+}
+
+.yazi1 {
+	color:#CC3300;
+}
+
+.gurupbaslik{
+	color:#CC3300;
+	border-bottom:#CC6600 dotted 1px;
+}
+
+.tabbaslik{
+	border-right:#FFFFFF dotted 1px; 
+	padding-right:5px;
+}
+
+.listeyazi {
+	border-bottom:#CC6600 dotted 1px;
+}
+
+.paylasim_ust{
+	font-style:italic;
+	font-size: 12px;
+	color: #3300FF;
+}
+
+.paylasim_alt{
+	font-size: 10px;
+	color: #3300FF;
+}
+
+.paylasim_alt a{
+	font-size: 10px;
+	color: #3300FF;
+}
+
+.paylasim_alt1{
+	font-size: 14px;
+	color: #3300FF;
+}
+
+.paylasim_alt1 a{
+	font-size: 14px;
+	color: #3300FF;
+}

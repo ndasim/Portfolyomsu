@@ -1,0 +1,10 @@
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\bin\Debug\Sınav Takip.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\bin\Debug\Sınav Takip.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\bin\Debug\Sınav Takip.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\obj\Debug\Sınav_Takip.giriş.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\obj\Debug\Sınav_Takip.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\obj\Debug\Sınav Takip.vbproj.GenerateResource.Cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\obj\Debug\Sınav Takip.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\obj\Debug\Sınav Takip.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\2005\Sınav Takip\Sınav Takip\obj\Debug\Sınav Takip.pdb

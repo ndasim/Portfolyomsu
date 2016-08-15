@@ -1,0 +1,30 @@
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.dll
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.Resources.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.dll
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.dll
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.Resources.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.dll
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.dll
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\bin\Release\fizik_motoru.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.dll
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\metal_tank_savaşı\fizik_motoru\fizik_motoru\obj\Release\fizik_motoru.pdb

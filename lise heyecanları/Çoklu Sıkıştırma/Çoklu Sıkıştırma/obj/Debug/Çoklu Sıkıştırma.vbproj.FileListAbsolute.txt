@@ -1,0 +1,33 @@
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Debug\Çoklu Sıkıştırma.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Debug\Çoklu Sıkıştırma.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Debug\Çoklu Sıkıştırma.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Form1.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Resources.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Form2.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Debug\Çoklu Sıkıştırma.exe
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Debug\Çoklu Sıkıştırma.pdb
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\bin\Debug\Çoklu Sıkıştırma.xml
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Form1.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Form2.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Resources.resources
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Bilgisayar\Desktop\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.exe
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.xml
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu Sıkıştırma.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Form1.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Form2.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Kriptol1n.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\Çoklu_Sıkıştırma.Resources.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\Çoklu Sıkıştırma\Çoklu Sıkıştırma\obj\Debug\GenerateResource.write.1.tlog

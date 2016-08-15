@@ -1,0 +1,10 @@
+asým 10 adet matematik sorusu var cevap anahtarý resim olarak dosyanýn içerisinde.
+
+sen bu teste bir puan hesaplama aracý yapacaksýn ama açýklarý kapat örneðin hiç iþaretlemeden týklayýnca cevaplarýnýzý kontrol ediniz falan yazsýn.
+
+Boþu varsa önemli deil sonuç butonu olsun en altta buton görünümü zevkine göre ayarlayabilirsin ama tercihim içeriye gömülendir.
+
+Süre ekleyebilirsin.Giriþte bir isim soyad sorgulamasý ve sonuç týklanýnca tebrikler (isim-soyad) puanýnýz x tir türünden bir mesaj olursa çok sevinirim.
+
+Ayrýca bu ödevi kamil hocaya anlatacaðýmýz için kodlarýn yanýna / ile bir ne iþe yaradýðýðný yazarsan makbule geçer saolasýn k.gelsin...
+

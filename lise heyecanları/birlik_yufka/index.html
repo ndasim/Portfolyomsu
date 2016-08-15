@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Birlik Yufka</title>
+	<script language="javascript" type="text/javascript" src="menuodak.js"></script>
+    <link href="stil.css" rel="stylesheet" type="text/css" />
+	<style>
+		iframe::-webkit-scrollbar {  
+			display: none;
+		}  
+	</style>
+</head>
+<body onload="basla()" vlink="#FFFFFF" link="#FFFFFF" alink="#FFFFFF">
+	
+	<center>
+		<div id="baslik"></div>
+        <div id="menuzmn">
+        
+        <div id="menuodak"></div>
+        <div id="isaret"></div>
+       	<div id="liste" >
+        		<ul>
+			  	  <li onclick="yonlendir('anasayf.html',0)" onmouseover="git_a(0)">ANASAYFA</li>
+           			<li onclick="yonlendir('uretim.html',1)" onmouseover="git_a(1)">ÜRETİM YERİMİZ</li>
+            		<li onclick="yonlendir('servis.html',2)" onmouseover="git_a(2)">SERVİS AĞIMIZ</li>
+            		<li onclick="yonlendir('biz.html',3)" onmouseover="git_a(3)">HAKKIMIZDA</li>
+            		<li onclick="yonlendir('iletisim.html',4)" onmouseover="git_a(4)">İLETİŞİM</li>
+       			</ul>
+       	  </div>
+        </div>
+        <img id="altoklava" src="tema/oklava.png" style="position:absolute; width:100%; left: 0px; top: 798px;" />
+        <img src="tema/oklava.png" style="position:absolute; width:100%; left: 0px; top: 279px;" />
+        <iframe id="pncere" src="anasayf.html" height="500" width="1100" frameborder="0" style="" scrolling="auto" ></iframe>
+</center>  
+      	
+	
+	
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Dekorist
+</name>
+</assembly>
+<members>
+<member name="M:Dekorist.UserControl1.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Dekorist.UserControl1">
+	<summary>
+UserControl1
+</summary>
+</member>
+</members>
+</doc>

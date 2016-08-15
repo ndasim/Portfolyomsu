@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+div {
+	border: #000000 dashed 1px;
+	overflow:auto;
+}
+
+table {
+	border-collapse:collapse;
+	text-align:center;
+}
+
+table thead tr{
+	background-color:#F1C100;
+}
+
+table tbody tr:hover{
+	background-color:#C1FBA1;
+}
+
+table tbody tr a:hover{
+	background-color:#C1FBA1;
+}
+
+td {
+	border-right:#FFFFFF dotted 1px;
+}
+
+#bilg_panel{
+	position:absolute;
+	height: 196px;
+	width: 480px;
+	left: 10px;
+	top: 14px;
+}
+
+#bilg_panel img{
+	position:absolute;
+	left: 13px;
+	top: 20px;
+	width: 147px;
+	height: 133px;
+}
+
+#bilg_panel #altt{
+	position:absolute;
+	left: 169px;
+	top: 9px;
+	width: 300px;
+	height: 156px;
+	border: none;
+}
+
+#menu1{
+	position:absolute;
+	left: 500px;
+	top: 16px;
+	height: 196px;
+	width: 221px;
+}
+
+#menu1 ul{
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	left: 22px;
+	top: 11px;
+}
+
+#gelen_msjlr{
+	position:absolute;
+	left: 10px;
+	top: 224px;
+	width: 300px;
+	height: 360px;
+}
+
+#giden_msjlr{
+	position:absolute;
+	left: 330px;
+	top: 224px;
+	width: 300px;
+	height: 360px;
+}
+
+#son_paylsmlr{
+	position:absolute;
+	left: 10px;
+	top: 980px;
+	height: 500px;
+	width: 620px;
+}
+
+
+#son_grsme{
+	position:absolute;
+	left: 10px;
+	top: 600px;
+	height: 360px;
+	width: 300px;
+}
+
+#sohbet_rapor{
+	position:absolute;
+	left: 330px;
+	top: 600px;
+	height: 360px;
+	width: 300px;
+}
+
+#arkads_panel{
+	position:absolute;
+	left: 650px;
+	top: 224px;
+	width: 300px;
+	height: 1260px;
+}
+
+.baslik{
+	display:block;
+	background-color:#F1C100;
+}
+
+.baslik a {
+	color:#000000;
+	display:block;
+	background-color:#F1C100;
+}

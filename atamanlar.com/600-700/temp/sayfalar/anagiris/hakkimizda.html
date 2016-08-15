@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Atamanlar Grup</title>
+		<link rel="stylesheet" href="../../kutuphane/scripts/css/style.css" type="text/css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="kutuphane/scripts/css/ie7.css" type="text/css" />
+		<![endif]-->
+		
+		<script src="../../kutuphane/scripts/js/temel.js"></script>
+		
+		<script src="../../kutuphane/scripts/js/jquery-1.10.2.min.js"></script> 
+		<script src="../../kutuphane/scripts/js/jquery.lightbox.js"></script>
+		
+		<style type="text/css">
+		
+			#portal{
+				cursor:pointer
+			}
+			
+			.petek{
+				position:relative;
+				height:300px;
+				width:300px;
+				display: inline-block;
+				margin:5px;
+			}
+			
+			.in{
+				position:absolute;
+				height:100%;
+				width:100%;
+			}
+			
+			.out{
+				position:absolute;
+				height:100%;
+				width:100%;
+			}
+		</style>
+	</head>
+	<body onload="kur()">
+		<div id="sayfaid" style="display:none">hakkimizda</div>
+		
+		<div class="page">
+			<div class="header">
+				<a href="index.html" id="logo"><img src="../../kutuphane/temelgorsel/logo.gif" alt="" style="position:relative; top:-20px"/></a>
+				<ul>
+					<li class="selected"><a href="../../index.html">Anasayfa</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+			</div>
+			
+			<div class="body">
+				<div>
+					<h3>Lorem ipsum dolor sit amet</h3>
+					<p>consectetur adipiscing elit. Integer venenatis consequat mi, vitae convallis tellus molestie eget. Fusce tempus bibendum eros, et laoreet felis bibendum eget. Fusce quis pharetra augue. Proin tempor ullamcorper dolor, at imperdiet orci feugiat nec. Cras posuere a turpis ac tempor. Sed hendrerit, urna non fermentum commodo, est quam posuere nisi, ac eleifend orci sapien vitae neque. In et sapien mollis, dapibus sapien vitae, suscipit ligula.</p>
+					
+					<h3>Maecenas cursus sit amet lacus eget laoreet</h3>
+					<p>Donec consequat iaculis odio, id suscipit est tristique quis. Fusce aliquam justo imperdiet, pharetra tortor ut, cursus nibh. Aenean eu urna vestibulum, posuere urna id, maximus ante. Cras lorem eros, vehicula eget congue eget, ullamcorper ac risus. Praesent tincidunt a purus a eleifend. Curabitur id nisi id sem fermentum ultrices id quis augue. Etiam convallis eros ligula, fermentum consequat sapien viverra at. Etiam maximus risus in dolor malesuada elementum. Vivamus nulla justo, interdum quis ligula in, maximus vulputate metus. Integer semper, arcu vel scelerisque cursus, libero est euismod tortor, vel ultrices est ante eu tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla, ligula ut iaculis lacinia, purus mauris porttitor nibh, sed ullamcorper turpis libero non odio. Donec ligula orci, vulputate sit amet consectetur id, vehicula et odio.</p>
+				</div>
+				<div id="portal"> 
+					<div id="ilaclama" class="petek">
+						<div class="out" style="background-image:url('../../kutuphane/ekgorsel/ilaclama.gif')"></div>
+						<div class="in" style="display:none; background-image:url('../../kutuphane/ekgorsel/ilaclama_hover.gif')"></div>
+					</div>
+					
+					<div id="emlak" class="petek">
+						<div class="out" style="background-image:url('../../kutuphane/ekgorsel/emlak.gif')"></div>
+						<div class="in" style="display:none; background-image:url('../../kutuphane/ekgorsel/emlak_hover.gif')"></div>
+					</div>
+					
+					<div id="rentacar" class="petek"> 
+						<div class="out" style="background-image:url('../../kutuphane/ekgorsel/rentacar.gif')"></div>
+						<div class="in" style="display:none; background-image:url('../../kutuphane/ekgorsel/rentacar_hover.gif')"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<ul>
+					<li><a href="index.html">Anasayfa</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+				<p>&#169; Copyright &#169; 2014. Atamanlar Grup Tüm Hakları Saklıdır</p>
+				<div class="connect">
+					<a href="http://facebook.com/atamanlargrup" id="facebook">facebook</a>
+					<a href="http://twitter.com/atamalargrup" id="twitter">twitter</a>
+					<a href="http://www.youtube.com/atamanlargrup" id="vimeo">vimeo</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>  

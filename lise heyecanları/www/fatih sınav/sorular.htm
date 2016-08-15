@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <title></title>
+
+        <script language="javascript">
+            
+            var kayt = Array(); // İşaretlenen şıklar bu dizi değişkeninin içine kaydedilecektir boş işaretlemeler 0 ifadesiyle gösterilmektedir..
+            
+            function basla(){ // Sayfanın ön değişkenleri ve buton haritası oluştuuruluyor...
+				var x = 0;
+				var y = 0;
+				var xi = 1;
+				var yi = 1;
+                // Her soru için gizli butonlar oluşturuluyor...
+                for (var i = 1; i <= 10; i++){
+					// Otomatik yerleştirme yapılıyor
+					
+                    document.body.innerHTML += (soru_butonlar((x + 23),(y+48),i));
+                    kayt[i] = -1; // Ön tanımlı soru cevabı kaydediliyor // sunucuya gönderilmek üzere // -1 sunucuda boş soru anlamına gelecek
+                
+					if (yi < 5){
+						yi += 1;
+						y += 180;
+					}
+					else{
+						y = 0;
+						x += 380;
+						yi =0;
+					}
+				}
+                
+				baglan(); // AJAX Bağlantısı kuruluyor
+            }
+			
+			function baglan() {
+				// Bu işlem biraz karışıktır her tarayıcıda ajax kelimesi farklı yorumlandığından hemen hemen bütün tarayıcılarla uyum sağlanmaya çalışılıyor
+				
+				if (window.XMLHttpRequest) { // Google, Mozilla, Safari,...
+					baglanti = new XMLHttpRequest();
+					if (baglanti.overrideMimeType) {
+						baglanti.overrideMimeType('text/xml');
+						
+					}
+				} else if (window.ActiveXObject) { // IE
+					try {
+						baglanti = new ActiveXObject("Msxml2.XMLHTTP");
+					} catch (e) {
+						try {
+							baglanti = new ActiveXObject("Microsoft.XMLHTTP");
+						} catch (e) {}
+					}
+				}
+
+				if (!baglanti) {
+					alert('Lütfen AJAX Desteği Olan Bir Tarayıcıyla Bağlanın');
+					return false;
+				}
+				baglanti.onreadystatechange = function(){donut();};	
+			}
+                        
+            function sık_isaretle(soru_no,deger){ // Herhangi bir gizli butona tıklandığında bu fonksiyon sayesinde işaretleme ve kaydetme işlemi gerçekleştirilecek
+                /*
+                    soru_no: Hangi soru için işlem yapıldığı
+                    nsne_id: Aynı zamanda içinde soru no'yuda bulunduran her şık için benzersiz olarak ayarlanmış nesne adıdır
+                    deger: Hangi şıkkın işaretlendiğini belirten değişken 1 den 5'e kadar değer alır 1=A,2=B şeklinde...
+                */ 
+                
+                /* Prensip:
+                    Öncelikli olarak tıklanılan öğenin id'si öğrenilir öğrenilen bu id ile
+                    html nesnesi tespit edilir ve background-image değeri ile işaretlenen şıkkın 
+                    arka plan resmi işaretlenmiş gibi gösterecek olan resimle değiştirilir ve kaydı yapılır
+                    
+                    Eğer daha önceden tıklanmış şıkka tıklanılmışsa bu sefer işlem tersine çevrilir...
+                */
+                
+                var nsne = document.getElementById("s" + soru_no + "buton" + deger); // fonksiyona verilen id'den html nesnesi tüm özellikleriyle bir değişkene aktarılıyor
+                
+                // Aynı şıkka tekrar tıklanırsa o şık'ın değerii kaldırılır yani boş olarak gösterilir
+                if (kayt[soru_no] == deger){ // Aynı şıkka tıklanma olasılığı...
+                    
+                    // Nesnenin arkaplanının kaldırılması;
+                    nsne.style.background = "";
+                    
+                    // Kaydının 0 olarak değiştirlmesi...
+                    kayt[soru_no] = 0;
+                }
+                else{
+                    // Üstdeki koşul gerçekleşmemişse şık işareretlenmiş olarak kaydedilir...
+                    
+					// ilgili sorudaki bütün şıklar temizlenip ilgili şık işaretleniyor
+					// temizleme:
+					for (var i= 1;i<=4;i++){
+						var denek = "";
+						var denek = document.getElementById("s" + soru_no + "buton" + i) // ayrı ayrı şıklar alınıp backgroundları temizleniyor
+						denek.style.background = "";
+					}
+					
+					// Nesnenin arkaplanının değiştirilmesi;
+                    nsne.style.background = "url(kaynaklar/tik.png)";
+					
+					
+					// Nesnenin Sunucuya gönderilmek üzere kaydedilmesi...
+                    kayt[soru_no] = deger;
+                }
+                
+            }
+            
+            function soru_butonlar(konumx,konumy,soru_no){ // Her Soru için kullanılacak olan ve şıkların yerine geçecek olan buton sınıfıdır...
+                
+                var buton_aralik = 20; // Her butonun aralığı kullanılacak olan soru resmindeki şıkların konumuna göre değişebilir
+                
+                var donut = ""; // Yazdırılacak olan html kodudur
+            
+                // Ana div etiketimiz
+                donut += '<div id="s' + soru_no + '" style="position:absolute; left:' + konumx + 'px; top:' + konumy + 'px;" >';
+                
+                // Butonları olusturma...
+                
+                // A butonu
+                donut += '<div id="s' + soru_no + 'buton1" onclick="sık_isaretle('+ soru_no +',1)" style="position:absolute; left:20px; top:20px; height:50px; width:50px; background-color:#CC6600;" ></div>';
+                
+				// B butonu
+                donut += '<div id="s' + soru_no + 'buton2" onclick="sık_isaretle('+ soru_no +',2)" style="position:absolute; left:110px; top:20px; height:50px; width:50px; background-color:#CC6600;" ></div>';
+            
+				// C butonu
+                donut += '<div id="s' + soru_no + 'buton3" onclick="sık_isaretle('+ soru_no +',3)" style="position:absolute; left:200px; top:20px; height:50px; width:50px; background-color:#CC6600;" ></div>';
+				
+				// D butonu
+                donut += '<div id="s' + soru_no + 'buton4" onclick="sık_isaretle('+ soru_no +',4)" style="position:absolute; left:290px; top:20px; height:50px; width:50px; background-color:#CC6600;" ></div>';
+				
+                return donut;
+            }
+			
+			function yolla(){
+				
+				// Kayt dizisi verileri aralarında ";" işaretiyle ayrılmış biçimde bir stringe kaydediliyor ve bu string sunucuya yollanıyor... 
+				veri = "cevap=";
+				
+				for (var i=0;i<=kayt.length;i++){
+					// taa başta dizi oluşturulurken dizinin ilk 25-25 değeri -1 olarak işaretlenmişti 
+					// bu -1 sayesinde boş sorular kayda -1 olarak geçecek ve sunucu tarafından algılanacak
+					veri += kayt[i] + ";"; // aralarında ";" işareti olması sağlanıyor 
+				}
+				
+				baglanti.open("POST","sunucu.php",false); // Sunucuya bağlantı sağlanıyor
+	
+				// web sayfaları ve veri iletişimi için vazgeçilmez olan başlıklar ayarlanıyor 
+				baglanti.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+				baglanti.setRequestHeader("Content-length", veri.length);
+				baglanti.setRequestHeader("Connection", "close");
+				
+				baglanti.send(veri);// Sunucuya post verileri gönderiliyor 
+			}
+			 
+			function donut() { // Sunucudan Dönen Değerleri İşleyen Fonksiyon
+
+				if (baglanti.readyState == 4) {
+					if (baglanti.status == 200) { // 200 sunucu üzerinde herhangi bir sayfalama hatasının bulunmadığını bildiren standartlaşmış kod
+						
+						var pencere = window.open ("", "mywindow","location=1,status=1,scrollbars=1, width=500,height=500");
+						
+						pencere.document.body.innerHTML = baglanti.responseText;
+						
+						//alert(baglanti.responseText) //
+					} else {
+						alert('Sunucu üzerinde bir hata oluştu. Durum Kodu:' + baglanti.status);
+					}
+				}
+
+			}
+        
+        </script>
+    </head>
+    <body onload="basla()" >
+		<img src="test/Matematik testi.png">
+		<div onclick = "yolla()" style="position:absolute; left:800px; top:20px; height:50px; width:200px; background-color:#FDFDDF;">SINAVI BİTİR</div>
+    </body>
+</html>

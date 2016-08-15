@@ -1,0 +1,10 @@
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\bin\arama_motoru.dll
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\bin\arama_motoru.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\bin\arama_motoru.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\obj\Debug\arama_motoru.Resources.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\obj\Debug\arama_motoru.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\obj\Debug\arama_motoru.dll
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\obj\Debug\arama_motoru.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\obj\Debug\arama_motoru.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\arama_motoru\arama_motoru\obj\Debug\arama_motoru._Default.resources

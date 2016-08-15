@@ -1,0 +1,125 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Atamanlar Grup</title>
+		<link rel="stylesheet" href="kutuphane/scripts/css/style.css" type="text/css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="kutuphane/scripts/css/ie7.css" type="text/css" />
+		<![endif]-->
+        
+		
+		<script src="kutuphane/scripts/js/temel.js"></script>
+		<script src="kutuphane/scripts/js/tabla.js"></script>
+		
+        
+		<script src="kutuphane/scripts/js/jquery-1.10.2.min.js"></script> 
+		<script src="kutuphane/scripts/js/jquery.lightbox.js"></script>
+        
+        <style type="text/css">
+		
+			#portal{
+				cursor:pointer
+			}
+			
+			.petek{
+				position:relative;
+				height:300px;
+				width:300px;
+				display: inline-block;
+				margin:5px;
+			}
+			
+			.in{
+				position:absolute;
+				height:100%;
+				width:100%;
+			}
+			
+			.out{
+				position:absolute;
+				height:100%;
+				width:100%;
+			}
+		</style>
+        <script>
+            function kurr(){
+                $(".jsTabla").each(function(){
+                    var ntabla = new tabla({id: $(this).attr('id'), style: "position:relative; left:-8px; top:-8px", tempDir: "../../kutuphane/ekgorsel/tabla", tempExt: "png", borderWidth: 8, height: $(this).css("height").match('[0-9]+'), width: $(this).css("width").match('[0-9]+')});
+                    ntabla.kur();
+                    //var l = this.children.length
+                    while (this.children.length > 0){
+                        ntabla.appendChild(this.children[0]);  
+                    } 
+                        
+                    this.appendChild(ntabla.obje);
+                });
+                
+                $(".jsResTabla").each(function(){
+                    var ntabla = new tabla({id: $(this).attr('id'), style: "position:relative; left:-8px; top:-8px", tempDir: "../../kutuphane/ekgorsel/tabla/res", tempExt: "png", borderWidth: 8, height: $(this).css("height").match('[0-9]+'), width: $(this).css("width").match('[0-9]+')});
+                    ntabla.kur();
+                    //var l = this.children.length
+                    while (this.children.length > 0){
+                        ntabla.appendChild(this.children[0]);  
+                    } 
+                        
+                    this.appendChild(ntabla.obje);
+                });
+                
+                kur();
+            }
+            
+            function git(adres){
+                window.location.href = adres;
+            }
+        </script>
+        
+	</head>
+	<body onload="kurr()">
+		<div id="sayfaid" style="display:none">anagiris</div>
+		
+		<div class="page">
+			<div class="header">
+				<a href="index.html" id="logo"><img src="../../kutuphane/temelgorsel/logo.gif" alt="" style="position:relative; top:-20px"/></a>
+				<ul>
+					<li class="selected"><a href="../../index.html">Anasayfa</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+			</div>
+			
+			<div class="body">
+                <div class="featured"><h2 style="position:relative; width:100%; text-aling:center;">KURUMLARIMIZ</h2></div>
+                <div id="portal"> 
+					<div id="ilaclama" class="petek">
+						<div class="out" style="background-image:url('kutuphane/ekgorsel/ilaclama.gif')"></div>
+						<div class="in" style="display:none; background-image:url('kutuphane/ekgorsel/ilaclama_hover.gif')"></div>
+					</div>
+					
+					<div id="emlak" class="petek" onclick="git('sayfalar/emlak/index.html')">
+						<div class="out" style="background-image:url('kutuphane/ekgorsel/emlak.gif')"></div>
+						<div class="in" style="display:none; background-image:url('kutuphane/ekgorsel/emlak_hover.gif')"></div>
+					</div>
+					
+					<div id="rentacar" class="petek"> 
+						<div class="out" style="background-image:url('kutuphane/ekgorsel/rentacar.gif')"></div>
+						<div class="in" style="display:none; background-image:url('kutuphane/ekgorsel/rentacar_hover.gif')"></div>
+					</div>
+				</div>
+            </div>
+			
+			<div class="footer">
+				<ul>
+					<li><a href="index.html">Anasayfa</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+				<p>&#169; Copyright &#169; 2014. Atamanlar Grup Tüm Hakları Saklıdır</p>
+				<div class="connect">
+					<a href="http://facebook.com/atamanlargrup" id="facebook">facebook</a>
+					<a href="http://twitter.com/atamalargrup" id="twitter">twitter</a>
+					<a href="http://www.youtube.com/atamanlargrup" id="vimeo">vimeo</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>  

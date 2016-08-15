@@ -1,0 +1,31 @@
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\bin\Debug\metal_savaşı.exe
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\bin\Debug\metal_savaşı.pdb
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\bin\Debug\metal_savaşı.xml
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\obj\Debug\metal_savaşı.Form1.resources
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\obj\Debug\metal_savaşı.Resources.resources
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\obj\Debug\metal_savaşı.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\obj\Debug\metal_savaşı.exe
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\obj\Debug\metal_savaşı.xml
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\metal_savaşı\obj\Debug\metal_savaşı.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\bin\Debug\metal_savaşı.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\bin\Debug\metal_savaşı.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\bin\Debug\metal_savaşı.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.Form1.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.Resources.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.vbproj.GenerateResource.Cache
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.exe
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.xml
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\bin\Debug\metal_savaşı.exe
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\bin\Debug\metal_savaşı.pdb
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\bin\Debug\metal_savaşı.xml
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.Form1.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\metal_savaşı.Resources.resources
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Eren\Desktop\of bea bütün masaüstü burada artık\ADN Yazılım\metal_savaşı\metal_savaşı\obj\Debug\GenerateResource.write.1.tlog

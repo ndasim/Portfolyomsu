@@ -1,0 +1,1720 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<!-- saved from url=(0059)http://www.linuxfocus.org/Turkce/January1999/article78.html -->
+<HTML><!-- ----- Kadriye Öztürk ----- --><HEAD><META http-equiv="Content-Type" content="text/html; charset=windows-1254">
+   
+   <META name="GENERATOR" content="Mozilla/4.5 [en] (X11; I; Linux 2.2.1 i586) [Netscape]">
+   <TITLE>LinuxFocus Ocak 1998:Java II 'de Programlama</TITLE>
+</HEAD><BODY text="#000000" bgcolor="#FFFFFF" link="#336633" vlink="#336633" alink="#336633">
+<!-- MAP for top navegation bar --><MAP name="top"><AREA shape="rect" coords="367, 9, 418, 30" alt="Home" href="http://www.linuxfocus.org/Turkce/"><AREA shape="rect" coords="423, 9, 457, 30" alt="Map" href="http://www.linuxfocus.org/Turkce/map.html"><AREA shape="rect" coords="463, 9, 508, 30" alt="Index" href="http://www.linuxfocus.org/Turkce/indice.html"><AREA shape="rect" coords="514, 9, 558, 30" alt="Search" href="http://www.linuxfocus.org/Turkce/Search/"></MAP><!-- MAP for bottom navegation bar --><MAP name="bottom"><AREA shape="rect" coords="78, 0, 163, 15" alt="News" href="http://www.linuxfocus.org/Turkce/News/"><AREA shape="rect" coords="189, 0, 284, 15" alt="Archives" href="http://www.linuxfocus.org/Turkce/Archives/"><AREA shape="rect" coords="319, 0,  395, 15" alt="Links" href="http://www.linuxfocus.org/Turkce/Links"><AREA shape="rect" coords="436, 0,  523, 15" alt="About LF" href="http://www.linuxfocus.org/Turkce/aboutus.html"></MAP>
+<CENTER><IMG ismap="" src="./LinuxFocus Ocak 1998 Java II 'de Programlama_files/Topbar-tr.gif" alt="[Top Bar]" border="0" usemap="#top" height="40" width="600">
+<BR><IMG ismap="" src="./LinuxFocus Ocak 1998 Java II 'de Programlama_files/Bottombar-tr.gif" alt="[Bottom Bar]" border="0" usemap="#bottom" height="21" width="600"></CENTER>
+<!-- SHORT BIO ABOUT THE AUTHOR -->
+<TABLE align="LEFT" border="0" cellspacing="0" cellpadding="5" width="30%">
+<TBODY><TR>
+<TD><IMG src="./LinuxFocus Ocak 1998 Java II 'de Programlama_files/Who.gif" alt="[Photo of the Author]" height="164" width="173">
+<BR><FONT color="#336633"><FONT size="+2">Jose M. Fernández&nbsp;</FONT></FONT>
+<BR><!--
+
+   	  <FONT color="#336633">Acerca del Author</FONT>: 
+
+	     [write a one to two paragraph bio here]
+
+	  <BR> 
+
+	  -->
+<P><A href="mailto:JOSEFDEZ@latinmail.com">Yazara yazi</A>
+<BR><!--   ICERIK      --><FONT color="#336633">Icerik</FONT>:&nbsp;
+<BR><A href="http://www.linuxfocus.org/Turkce/January1999/article78.html#cuestiones">Lexical Issues</A>
+<BR><A href="http://www.linuxfocus.org/Turkce/January1999/article78.html#tipos">Cesitler, Degiskenler ve islemciler</A>
+<BR><A href="http://www.linuxfocus.org/Turkce/January1999/article78.html#sentencias">Kontrol Cumleleri </A>
+<BR><A href="http://www.linuxfocus.org/Turkce/January1999/article78.html#clases">Siniflar, yontemler ve kalit&nbsp;</A>
+<BR><SPACER type="VERTICAL" size="100"></SPACER></P></TD>
+</TR>
+</TBODY></TABLE>
+<!--   BODY OF THE ARTICLE    -->
+<H2>
+Java. Part II</H2>
+<IMG src="./LinuxFocus Ocak 1998 Java II 'de Programlama_files/illustration8.gif" alt="[Ilustration]" hspace="10" height="100" width="100">
+<H3>Çeviri: Kadriye Öztürk (Gözden geçirilmektedir)</H3>
+<P><FONT color="#336633"><FONT size="-1">Ozet</FONT></FONT>: <FONT face="Helvetica,Arial,Roman"><FONT size="-1">Makalelerin
+bu serileri klasik programlama dillerini bir model olarak almistir.Java
+dilinin ocelliklerine kisa bir giris yaptiktan sonra simdi veri cesitleri,
+degiskenler, kontral ifadeleri gibi konularda calismaya baslayabiliriz.Bu
+bize en onemli konu olan siniflara yol gostericek.Siniflar kavrami bu programlama
+dilinin kokundedir.Baska bir deyisle siniflar bu programlam dilinin temelidir.Siniflar
+konusunu ortaya koymak icin bu parca, programlama dilinin geri kalanina
+benzerliginden oturu ESQUEMATICA¿? gibi olacak.</FONT></FONT>
+<BR>
+</P><HR size="0" noshadow="">
+<A name="cuestiones"></A>
+<H3>
+Lexical issues</H3>
+Bicimsel konusursak,bir Java programi bir seri komutlar, belirtecler, literaller
+ayiraclar, bos araliklar ve anahtar kelimelerle bicimlendirilir.Derleyici
+tek formatta yazilmis olan kodu alir, bit sayisini 8 ASCII'den 16'ya buyutur
+ve bir de hic bir latin diline bu karekterleri uygun hale getirmek icin
+tus haritasini genisletir.Bos araliklar, etiketler ve carriage donumler
+sembol setine ait olmadiklari icinderleyici tarafindan silinir.Bu, Java
+programini serbest yazilim stilinde kalmasini saglar.
+<P>Java komutlari su uc stilin birinde olabilir.
+<BR><LD>
+</LD></P><DT>
+<B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //komutlar</B></DT>
+
+<DD>
+//'den satir sonuna kadar olan karakterler onemsenmez.</DD>
+
+<DT>
+<B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* komut
+*/</B></DT>
+
+<DD>
+/* ve*/ arasindaki tum karekterler onemsenmez.Bu komutlar bir kac satir
+uzatma ozelligine sahip olabilir.</DD>
+
+<DT>
+<B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /** komut
+**/</B></DT>
+
+<DD>
+/**/ gibi komutlar, fakat bunlar bildirilerden once kullanilmalidir, cunku
+javadoc aleti onlari otomatik olarak dokuman yaratmada kullanir.</DD>
+
+<BR>
+<P>Belirtecler degiskenlere, sinflara ve yontemlere dereleyicinin onlari
+tanimasi icin verilen isimlerdir.Herhangi bir harf katarini(yuksek ve dusuk
+durumda), numaralari ve alti cizgili ve dolar sembollerini kullanmak mumkundur.Onlar
+bir numarayla baslayamaz.
+</P><P>Java, ayiraclar gibi bazi ozel karakterleri kullanir.En cok kullanilan,bizim
+de bulabilecegimiz, ayiraclar:
+<TABLE border="" cellpadding="5" width="90%">
+<TBODY><TR align="CENTER">
+<TD valign="TOP">Sembol</TD>
+
+<TD valign="TOP">Tanimlama</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" width="16%">()</TD>
+
+<TD>O tanimlamalardaki parametre listelerini bulundurur ve yontemleri arar.Ayrica
+ifade onceligini degistirmek ve ifadeleri bir kontrol cumlesinde ve cesit
+degisiminde icermek icin de kullanilir.&nbsp;</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">{}</TD>
+
+<TD valign="TOP">Baslangic vektorlerinin degerlerini otomatikmen icermek
+icin.Sinflarla, yontemlerle ve yerel isaretle kullanmak icin bir kod blogunu
+tanimlamak icin</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">[]</TD>
+
+<TD valign="BASELINE" cesitlerini="" tanimlamak="" icin.bir="" matrisde="" degerleri="" referans="" etmek="" icin.="">
+</TR>
+
+<TR>
+<TD align="CENTER">;</TD>
+
+<TD valign="TOP">Cumle ayiraclari.</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">,</TD>
+
+<TD valign="TOP">Degisken bildirilerindeki ardisik belirtecleri ayirmak icin.FOR
+cumlesinde cumleleri ayirmak icin.</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">.</TD>
+
+<TD valign="TOP">Paketi, alt paketi sinif isimlerini ayirmak icin.Referans
+yapilmis bir degiskenden yontemi veya bir degiskeni ayirmak icin.</TD>
+</TR>
+</TBODY></TABLE>
+Anahtar kelimeler Java dili tarafindan kullanilan belirteclerdir ve Java
+tarafindan tanimlanan herhangi bir diger yolda kullanilamaz.Sonraki tablo
+butun Java anahtar kelimelerini gosterir:
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="90%">
+<TBODY><TR align="CENTER">
+<TD>abstract</TD>
+
+<TD>double</TD>
+
+<TD>int</TD>
+
+<TD>super</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>boolean</TD>
+
+<TD>else</TD>
+
+<TD>interface</TD>
+
+<TD>switch</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>break</TD>
+
+<TD>extends</TD>
+
+<TD>long</TD>
+
+<TD>synchronized</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>byte</TD>
+
+<TD>false</TD>
+
+<TD>native</TD>
+
+<TD>this</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>byvalue</TD>
+
+<TD>final</TD>
+
+<TD>new</TD>
+
+<TD>threadsafe</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>case</TD>
+
+<TD>finally</TD>
+
+<TD>null</TD>
+
+<TD>throw</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>catch</TD>
+
+<TD>float</TD>
+
+<TD>package</TD>
+
+<TD>transient</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>char</TD>
+
+<TD>for</TD>
+
+<TD>private</TD>
+
+<TD>true</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>class</TD>
+
+<TD>goto</TD>
+
+<TD>protected</TD>
+
+<TD>try</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>const</TD>
+
+<TD>if</TD>
+
+<TD>public</TD>
+
+<TD>void</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>continue</TD>
+
+<TD>implements</TD>
+
+<TD>return</TD>
+
+<TD>while</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>default</TD>
+
+<TD>import</TD>
+
+<TD>short</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD>do</TD>
+
+<TD>instanceof</TD>
+
+<TD>static</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+
+<H3>
+<A name="tipos"></A>Veri cesitleri, Degiskenler, Islemciler</H3>
+Bu noktada soylemem gerekiri ki, Java zor yazilan bir dildir, her degisken
+bir ceside sahiptir ve her cesit oldukca iyi tanimlanmistir.Butun isaret
+cesidi uyumluluk yonunden test edilmistir,her ikisi acik veya engelsiz
+parametre, yontemlere cagrilarda interchange yaparlar.Derleyici butun
+ifadeleri ve parametreleri cesit uyumlulugunu saglamak icin kontrol eder.
+<P>Bir onceki makalede Java'nin tamamen nesne uygunlugu oldugundan
+bahsetmistim, yine de, goz onunde bulundurmaliyiz ki, Java nesne olmayan
+sekiz veri cesidini tanimlar.Bunun yaninda cesitli nedenlerden dolayi butun
+veri cesitleri tanimlanmis bir alana sahiptir. 
+</P><P>Basit veri cesitleri dort gruba bolunebilir:
+<TABLE border="" cellpadding="5" width="90%">
+<TBODY><TR align="CENTER">
+<TD valign="TOP" width="22%">CESIT</TD>
+
+<TD valign="TOP">ISIM</TD>
+
+<TD valign="TOP">BOYUT</TD>
+
+<TD valign="TOP" width="39%">ALAN</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">Integer</TD>
+
+<TD valign="TOP">long</TD>
+
+<TD valign="TOP">64</TD>
+
+<TD valign="TOP" width="39%">-9.223.372.036.854.775.808&nbsp;
+<BR>a&nbsp;
+<BR>9.223.372.036.854.775.807</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">&nbsp;</TD>
+
+<TD valign="TOP">int</TD>
+
+<TD valign="TOP">32</TD>
+
+<TD valign="TOP" width="39%">-2.147.483.648&nbsp;
+<BR>a&nbsp;
+<BR>2.147.483.647</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">&nbsp;</TD>
+
+<TD valign="TOP">short</TD>
+
+<TD valign="TOP">16</TD>
+
+<TD valign="TOP" width="39%">-32.768 a 37.767</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">&nbsp;</TD>
+
+<TD valign="TOP">byte</TD>
+
+<TD valign="TOP">8</TD>
+
+<TD valign="TOP" width="39%">-128 a 127</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">Floating point</TD>
+
+<TD valign="TOP">float</TD>
+
+<TD valign="TOP">32</TD>
+
+<TD valign="TOP" width="39%">3.4 e-038 a 3.4 e+038</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">&nbsp;</TD>
+
+<TD valign="TOP">double</TD>
+
+<TD valign="TOP">64</TD>
+
+<TD valign="TOP" width="39%">1.7 e-308 a 1.7 e+308</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">Character</TD>
+
+<TD valign="TOP">char</TD>
+
+<TD valign="TOP">16</TD>
+
+<TD valign="TOP" width="39%">Unicode</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="22%">Boolean</TD>
+
+<TD valign="TOP">boolean</TD>
+
+<TD valign="TOP">&nbsp;</TD>
+
+<TD valign="TOP" width="39%">true o false</TD>
+</TR>
+</TBODY></TABLE>
+
+</P><H4>
+Degiskenler:</H4>
+Bir degisken, bir belirtec ve bir cesit tarafindan tanimlanmistir.Alternatif
+olarak degiskeni ayni anda hem belirtip hem de ilk konumuna
+getirebiliriz.Her degisken bir isaret ve omre sahiptir.Bunun yaninda, onlar
+kullanilmadan once bildirilmelidir.Onlar bir programin herhangi bir aninda
+kullanilabilirler ve ayni anda kullanilabilirler.  
+<P>Genel olarak, bir degisken bu yolla bildirilir:
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="484">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>identifier type [=value] [,identifier [=value]......];
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Yukaridaki "type" interface'e ragmen temel bir Java cesidi veya sinfi
+olabilir.Eger degiskeni ilk durumuna getirirsek, onun aciklamasi degisken
+bildirisinde belirtilen ayni cesit veya uygun bir cesit olmalidir.
+<P>Ornekler:
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="484">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>int&nbsp; a = 4, b, c=7;
+
+char c;
+
+myclass class;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Bir kurala gore degisken bir isaret icinde tanimlanir.(Biz isareti
+parantezler{} arasindaki kod kismi olarak tanimlariz)Bir degisken onun
+isaretinden birkez cikmis degerine sahip olamaz.
+<P>Programlama dillerinin bir cogu iki isaret kategorisini tanimlar,kuresel
+ve yerel.Ama bu Java nesne uygunlugu modeline iyi uymaz.Bu modelde iki ana
+isaret, bir sinif ve bir yontem tarafindan tanimlanir.
+</P><H4>
+Cesit degisimi:</H4>
+Java, teori inkar etmesine ragmen baska bir cesit degiskene, ozel cesit bir
+deger atamaya izin verir.Eger cesitler uyumlu ise, bir otomatik degisme
+yurutulur;degilse, bir kesin cesit degismeyle uyumsuz cesit arasinda
+calismak daima mumkundur.Cesitlerin bir otomatik degisimini almak icin, su
+gereksinilir:
+<UL>
+<LI>
+Iki veri cesidi uyumlu olcaktir.</LI>
+
+<LI>
+Amac cesidi kaynak cesidinden daha buyuk olacaktir.</LI>
+</UL>
+Ornegin bir int cesidi, bir byte cesidini saglamak icin yeterince buyuktur,
+boylece o kesin degismeye ihtiyac duymaz.Sayi cesitleri char veya boolean
+uyumlu degillerdir ve bu sonuncular geri kalanlardan hic biriyle uyumlu
+degillerdir.Eger biz bir int degerini bir byte'a atamak istersek, kesin
+degisme kullanimini su formatta yapmaliyiz:
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5" width="484">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>(type) value</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+ki type cesit degisme hedefini gosterii.Ornek:
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5" width="484">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>int a;
+
+char b;
+
+a=(int) b;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Otomayik cesit degismesinde dikkatli olmaliyiz ki bu degisme bilgi
+sizintisina yol acabilir.Ornegin:
+<P>Bir floating point cesidinin bir integer cesidine degismesinde, parca
+elemanini kaybedebilir:
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="90%">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>int a;
+
+double d= 125.43;
+
+a=(int) d;</PRE>
+degiken 125 degerine sahiptir.&nbsp;
+<PRE>byte&nbsp;&nbsp; b;
+
+int i=257;&nbsp;
+
+b=(byte) i;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</PRE>
+b 1 degerine sahip, bu 257'nin 256'ya bolumunun sonucundaki 256 byte
+cesidinin alanidir.&nbsp;
+<PRE>byte b;
+
+double d= 340.123;
+
+b=(byte) d;</PRE>
+yukarida b 84 degerine sdahip olacak;&nbsp;</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Butun degisimler derleyici ve hic bir derleme hatasiyla gundeme gelmeyen
+yorumcuyla yurutulur.
+<H4>
+Islemciler:</H4>
+Dort gruba bolunebilen genis bir seri islemciler var:yerel aritmetik, parca
+duzeyi ve relational.Genel bir kural olarak, onlar diger dillerdeki gibi
+calisacaklardir, ama burda tartisilacak kucuk farkliliklar var.
+<H5>
+Aritmetik Islemci:</H5>
+
+<CENTER><TABLE border="" cellpadding="5">
+<TBODY><TR>
+<TD>islemci</TD>
+
+<TD>Tanimlama</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">+</TD>
+
+<TD>Addition</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">-</TD>
+
+<TD>Subtraction</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">*</TD>
+
+<TD>Multiplication</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">/</TD>
+
+<TD>Division</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">%</TD>
+
+<TD>Modulo (division remaining)</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">++</TD>
+
+<TD>Increment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">+=</TD>
+
+<TD>Addition&nbsp; and assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">-=</TD>
+
+<TD>Subtraction and assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">*=</TD>
+
+<TD>Multiplication and assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">/=</TD>
+
+<TD>Division and assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">%=</TD>
+
+<TD>Modulo and assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER">--</TD>
+
+<TD>Decrement</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Modula islemcisi, integer ve floating point degerlerinin ikisine birden uygulanabilir:
+<CENTER><TABLE border="" cellpadding="5" width="472">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>int a=38;
+
+double d=41.95;
+
+int c=a%10;&lt;
+
+double&nbsp; e=d%10;</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+ c degiskeni bir 8'e sahiptir.e degiskeni bir 1.95'e sahiptir;
+<P>Gorevleriyle islemciler yapilarda yararlidir.Sunun gibi:
+</P><P>a = a + 4; esittir a+=4;
+</P><P>a = a % 2; esittir a%=2;
+</P><P>Normal olarak bu cumleleri soyle soyleyebiliriz:
+</P><P>var=var op expression; yerine var op= expression yazilabilir;
+</P><H5>
+Parca duzeyi islemcisi:</H5>
+integer,long, int, short, char, byte cesitlerine uygulanabilen bazi
+tanimlanmis parca duzeyi islemcisi vardir. 
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5">
+<TBODY><TR>
+<TD align="CENTER" valign="TOP">Islemci</TD>
+
+<TD align="CENTER" valign="TOP">Tanimlama</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">~</TD>
+
+<TD valign="TOP">Unary NOT at bit level</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&amp;</TD>
+
+<TD valign="TOP">AND at bit level</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">|</TD>
+
+<TD valign="TOP">OR at bit level</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP"><FONT size="-2">/\</FONT></TD>
+
+<TD valign="TOP">Exclusive OR exclusive at bit level</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&gt;&gt;</TD>
+
+<TD valign="TOP">Right shift</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&gt;&gt;&gt;&gt;</TD>
+
+<TD valign="TOP">Right shift filled with zeroes</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&lt;&lt;</TD>
+
+<TD valign="TOP">Left shift</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&amp;=</TD>
+
+<TD valign="TOP">AND at bit level and assignation</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">|=</TD>
+
+<TD valign="TOP">OR at bit level and assignation</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">/\=</TD>
+
+<TD valign="TOP">exclusive OR at bit level and assignation</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&gt;&gt;=</TD>
+
+<TD valign="TOP">Right shift and assignation</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&gt;&gt;&gt;&gt;=</TD>
+
+<TD valign="TOP">Right shift filled with zeroes and assignation</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&lt;&lt;=</TD>
+
+<TD valign="TOP">Left shift and assignation</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+
+<H5>
+Iliskisel Islemciler:</H5>
+Onlar iki operand arasindaki iliskiyi belirler, ozellikle test yaparken.
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5">
+<TBODY><TR>
+<TD align="CENTER" valign="TOP">islemci</TD>
+
+<TD align="CENTER" valign="TOP">Tanimlama</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">= =</TD>
+
+<TD valign="TOP">Esit</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">!=</TD>
+
+<TD valign="TOP">'den farkli&nbsp;</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&gt;</TD>
+
+<TD valign="TOP">'den buyuk</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&lt;</TD>
+
+<TD valign="TOP">'den dusuk</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&gt;=</TD>
+
+<TD valign="TOP">Esit veya 'den buyuk</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&lt;=</TD>
+
+<TD valign="TOP">Esit veya 'den kucuk</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+(C/C++) gibi diger dillere benzemeksizin, boolean degerleri yonlu ve
+dogrudur.Bu onlarin sayisal olmadigini gosterir..
+<H5>
+Boolean mantik islemcisi:
+</H5>
+Onlar sadece boolean islemcileriyle calisirlar ve ayrica baska bir boolean
+islemciti uretirler.
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5">
+<TBODY><TR>
+<TD align="CENTER" valign="TOP">Islemci</TD>
+
+<TD align="CENTER" valign="TOP">Tanimlama</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&amp;</TD>
+
+<TD valign="TOP">logic AND&nbsp;</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">|</TD>
+
+<TD valign="TOP">logic OR&nbsp;</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">/\</TD>
+
+<TD valign="TOP">logic XOR(exclusive OR)</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">||</TD>
+
+<TD valign="TOP">shortcut OR</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&amp;&amp;</TD>
+
+<TD valign="TOP">shortcut AND</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">!</TD>
+
+<TD valign="TOP">unary logic NOT</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">&amp;=</TD>
+
+<TD valign="TOP">AND assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">|=</TD>
+
+<TD valign="TOP">OR assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">/\=</TD>
+
+<TD valign="TOP">XOR assignment</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">= =</TD>
+
+<TD valign="TOP">Equal to</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">!=</TD>
+
+<TD valign="TOP">Not equal to</TD>
+</TR>
+
+<TR>
+<TD align="CENTER" valign="TOP">?:</TD>
+
+<TD valign="TOP">Ternary If-then-else ternary</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+The OR shortcut operator has as a result: true, when the first operator
+is true, whichever the second operator value. Equally, the AND shortcut
+operator is false when the first operator is false, whichever the other
+operator.
+<P>ternary islemcisinin genel format:
+</P><P>Expression1? expession2 : expression3
+</P><P>Eger Expression1 dogruysa, expresion2 yururluge konulur;yanlis ise,
+expression3 yururluge konulur.
+</P><P>Operators precedence:
+</P><CENTER>Yuksek</CENTER>
+
+<CENTER><TABLE border="" cellpadding="5">
+<TBODY><TR align="CENTER">
+<TD valign="TOP" width="26%">( )</TD>
+
+<TD>[ ]</TD>
+
+<TD>.</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">++</TD>
+
+<TD>--</TD>
+
+<TD>~</TD>
+
+<TD>!</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">*</TD>
+
+<TD>/</TD>
+
+<TD>%</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">+</TD>
+
+<TD>-</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">&gt;&gt;</TD>
+
+<TD>&gt;&gt;&gt;&gt;</TD>
+
+<TD>&lt;&lt;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">&gt;</TD>
+
+<TD>&gt;=</TD>
+
+<TD>&lt;</TD>
+
+<TD>&lt;=</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">= =</TD>
+
+<TD>!=</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">&amp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">'</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">|</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">&amp;&amp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">||</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">?:</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+
+<TR align="CENTER">
+<TD valign="TOP" width="26%">=</TD>
+
+<TD>Op=</TD>
+
+<TD>&nbsp;</TD>
+
+<TD>&nbsp;</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+
+<CENTER>Dusuk</CENTER>
+<A name="sentencias"></A>
+<H3>
+Flow-Control cumleleri</H3>
+Onlar uc gruba ayrilabilir: Selection, Iteration and Jump.
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5" rules="cols">
+<TBODY><TR>
+<TD valign="TOP">Grup</TD>
+
+<TD valign="TOP">Cumle</TD>
+
+<TD valign="TOP">Tanimlama</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">Selection</TD>
+
+<TD valign="TOP">if</TD>
+
+<TD valign="TOP">
+<PRE>if ( condition )&nbsp;
+
+&nbsp; sentence1;
+
+else&nbsp;
+
+&nbsp; sentence2;&nbsp;</PRE>
+</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">&nbsp;</TD>
+
+<TD valign="TOP">various if's</TD>
+
+<TD valign="TOP">
+<PRE>If (condition )&nbsp;
+
+&nbsp; sentence;
+
+else if (condition)&nbsp;
+
+&nbsp; sentence;
+
+else if (condition)&nbsp;
+
+&nbsp; sentence;
+
+.
+
+.
+
+else&nbsp;
+
+&nbsp; sentence;</PRE>
+</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">&nbsp;</TD>
+
+<TD valign="TOP">switch</TD>
+
+<TD valign="TOP">
+<PRE>switch (expression){
+
+&nbsp; case value1:
+
+&nbsp;&nbsp;&nbsp; sentence;
+
+&nbsp;&nbsp;&nbsp; break;
+
+&nbsp; case value2:
+
+&nbsp;&nbsp;&nbsp; sentence;
+
+&nbsp;&nbsp;&nbsp; break;
+
+&nbsp;&nbsp;&nbsp; .
+
+&nbsp;&nbsp;&nbsp; ...
+
+&nbsp; default :
+
+&nbsp;&nbsp;&nbsp; sentence;
+
+}</PRE>
+</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">Iteration</TD>
+
+<TD valign="TOP">while</TD>
+
+<TD valign="TOP">
+<PRE>while (condition) {
+
+&nbsp; sentence;
+
+}</PRE>
+</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">&nbsp;</TD>
+
+<TD valign="TOP">do while</TD>
+
+<TD valign="TOP">
+<PRE>do {
+
+&nbsp; sentences;
+
+} while (condition)</PRE>
+</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">&nbsp;</TD>
+
+<TD valign="TOP">for</TD>
+
+<TD valign="TOP">
+<PRE>for (initialization, condition, iteration) {
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp; sentences;
+
+}</PRE>
+</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">Jump</TD>
+
+<TD valign="TOP">break</TD>
+
+<TD valign="TOP">switch'den cikmak icin.&nbsp;
+<P>loop'dan cikmak icin</P></TD>
+</TR>
+
+<TR>
+<TD valign="TOP">&nbsp;</TD>
+
+<TD valign="TOP">continue</TD>
+
+<TD valign="TOP">Exits from the current loop iteration but continues in the
+same loop</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">&nbsp;</TD>
+
+<TD valign="TOP">return</TD>
+
+<TD valign="TOP">Return explicitly from a method</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+
+<H3>
+<A name="clases"></A>Siniflar, Yontemler, Kalit</H3>
+Java scratch'den dizayn edilmis bir dildir, ki onceki makalede bahsetmistik,
+ve bu bir nesne yerlesimi programlama dilinin yararli yurutulmesi, acik ve
+daha yakin bir dil olmasinin nedenidir.Dolayisiyla butun Java progrmalari
+nesne uygunlugu icerir.Dikkat etmeniz gereken bir nokta, makalelerin bu
+serilerinde nesne uygunlugu programiyla ilgili herhangi bir dersin
+olmamasidir.Bununla ilgili en bastan baslayarak en yararli progrmalara kadar
+uzanan harika bir yazin bulabilirsiniz.Cunku OOP(nesne uygunlugu programi)
+Java icin cok onemlidir.Anlamalisiniz ki o bu dilde programlamak icin
+baslangictan da onemlidir.Biz her zaman Java terminolojisini izlesekte, en
+kisa ve acik yolla Java'yi tamamlanmis nesne uygunlugu dili yapan
+elementleri tanimlamaya calissakta, bazi temel elementleri kullanmaya ve ele
+almaya zorlandik.<H4>
+SINIFLAR :</H4>
+Bu Java cekirdegidir.O bir nesnenin seklini ve tabiatini tanimlar.Ayrica o
+nesne uygunlugu programinin temelini simgeler.Yeni bir veri cesidi, bir
+sinif tarafindan tanimlanmaya gelir ve bu yeni cesit, bu cesidin nesnelerini
+yaratmakta kullanilir.
+<P>A sinifi bir nesne icin modeldir ve bir nesne bir sinif icin
+ornektir.Java kuresel islevleri veya degiskenleri desteklemez, boylece butun
+program yontemleri bir sinifa tanimlanmalidir.
+</P><P>Bir sinif saklanmis kelime kullanimin tanimlanir.Yaygin bir sinif
+tanimlamasi soyle olabilir:
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="496">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>Class class_name {
+
+&nbsp; Type instance1_of_variable;
+
+&nbsp; Type instance2_of_variable;
+
+&nbsp; .
+
+&nbsp; .
+
+&nbsp; ...
+
+&nbsp; type instance_variable;
+
+&nbsp; type method_name(parameter_list){
+
+&nbsp;&nbsp;&nbsp; //body of the method
+
+&nbsp; }
+
+&nbsp; .
+
+&nbsp; .
+
+&nbsp; ..
+
+&nbsp; type name_of_the_method(parameter_list){
+
+
+
+
+
+&nbsp;&nbsp;&nbsp; //body of the method
+
+&nbsp; }
+
+}</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Degiskenler veya veri, orneklerinin degiskeni diye cagrilar bir sinifa
+tanimlanabilirler.Yontemler kodu icerirler ve onlar bir sinifin verisinin
+nasil kullanilacagini tanimlarlar.
+<P>Bir sinifin nesnelerini almak icin iki adima gereksinilir:
+</P><OL type="a">Sinif cesidinin bir degiskenini bildirmek.Bu
+degisken bir nesneyi tanimlamaz, o bir nesneyi referans etmek icin
+kullanilabilecgimiz bir degiskendir.
+<P>Dinamiksel olarak hafizayi nesneye atamak ve onun bir referansini almak
+icin.Bu ikinci adim yeni operatorun anlami tarafindan yapilir.Genel
+gorunumu:
+
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="496">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+variable = new name_of_the_class();</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+"variable" yaratmak istedigimiz sinifin bir degiskenidir ve
+name_of_the_class, instanciated olan sinifin ismidir.Bir nesne yaratimi
+grafik olarak soyle tanimlanir:
+<CENTER><IMG src="./LinuxFocus Ocak 1998 Java II 'de Programlama_files/figure8-2.jpg" name="Graphic5" border="0" height="275" width="512" align="BOTTOM"></CENTER>
+
+<H4>
+METHODS:</H4>
+Bir yontemin genel formati:
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5" width="484">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>type name_of_the_method (parameter_list) {
+
+
+
+&nbsp; //method_body
+
+}</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+"type" yontem tarafindan geri gonderilmis cesittir; o sinif cesitlerini
+iceren herhangi bir gecerli cesit olabilir veya hicbir degeri geri
+gonderemez.(void)
+<P>Paramete listesi, bir kolonla atrilmis cesit belirteclerinin bir cift
+ardisligidir.Parametreler, yonteme verilen argumanlarin degerlerini alan
+degiskenlerdir.Yontem hic bir parametreye sahip degilse, liste bos
+olacaktir.
+</P><P>"void" 'den farkli bir deger geri donen yontemler sunu kullanirlar:
+</P><CENTER><TABLE border="" cellpadding="5" width="484">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+return valor;</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Buradaki cesit donus seklidir.
+<P>Java, esnek ve guclu yontemleri onceden hazirlar, bu yuzdenburadan
+makalenin sonuna kadar, en onemli yontem gorunuslerinin her birini tekrar
+gozden gecirecegiz.
+</P><P>Buna karsin, devam etmeden once basit bir ornekle butun onceki kavramlara
+bir goz atalim.
+</P><P>Dikdortgen seklindeki bir kutunun(havuz gibi) kapasitesini hesaplamak icin
+bir sinif yaratalim:
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="100%" rules="cols">
+<TBODY><TR>
+<TD valign="TOP">Kod</TD>
+
+<TD valign="TOP">Komutlar</TD>
+</TR>
+
+<TR>
+<TD valign="CENTER">
+<PRE>class capacity {
+
+&nbsp;&nbsp;&nbsp; double length;
+
+&nbsp;&nbsp;&nbsp; double width;
+
+&nbsp;&nbsp;&nbsp; double height;
+
+&nbsp;&nbsp;&nbsp; void CalcVolume () {
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double volume ;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; volume = length*width*height;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("Volume: " +
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; volume);
+
+&nbsp;&nbsp;&nbsp; }
+
+}</PRE>
+</TD>
+
+<TD>Gorebileceginiz gibi, uzunluk, genislik ve yukseklik gibi uc ornek
+degere sahip "capacity" adli bir sinif tanimladik.Ayrica akan hacmi
+hesaplayan bir yontemde tanimlanabilir.capacity.java adli kaynak dosyasini
+cagiracagiz.Ona derledigimizde bir capacity.class isimli bir sinif
+yaratilmis olacak.</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Bu sinif kendi basina bir applet gibi hic bir faaliyet tasiyamaz, aksine bu
+sinif komut satirindan isleme konulmak icin main() yontemine sahiptir.Biz,
+bu sinifin nesnelerini yaratmak icin bize olanak saglayan bir template
+yarattik.Bu hedefi yerine getirmek icin, komut satirindan isleme
+konulabilecek bir sinif yaratacagiz.
+<BR>&nbsp;
+<CENTER><TABLE border="" cellpadding="5" width="100%" rules="cols">
+<TBODY><TR>
+<TD valign="TOP">Kod</TD>
+
+<TD valign="TOP">Komutlar</TD>
+</TR>
+
+<TR>
+<TD valign="CENTER">
+<PRE>class example {
+
+&nbsp; public static void main(String Arg[]){&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp; capacity p1=new capacity();
+
+&nbsp;&nbsp;&nbsp; capacity p2=new capacity();
+
+&nbsp;&nbsp;&nbsp; p1.length = 16;
+
+&nbsp;&nbsp;&nbsp; p1.width=3;
+
+&nbsp;&nbsp;&nbsp; p1.height=2;
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp; //
+
+&nbsp;&nbsp;&nbsp; p2.length = 25;
+
+&nbsp;&nbsp;&nbsp; p2.width=6;
+
+&nbsp;&nbsp;&nbsp; p2.height=3;
+
+
+
+&nbsp;&nbsp;&nbsp; //
+
+&nbsp;&nbsp;&nbsp; p1.CalcVolume();
+
+
+
+&nbsp;&nbsp;&nbsp; //
+
+&nbsp;&nbsp;&nbsp; p2.CalcVolume();
+
+
+
+&nbsp; }
+
+
+
+}&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</PRE>
+</TD>
+
+<TD valign="CENTER">Kapasite cesidinin iki degiskeni p1 ve p2 olarak
+tanimlanir.Yeni islemciyle p1,p2 degiskenlerine dogru gonderilebilen
+kapasite cesidinin iki nesnesini yaratiriz.&nbsp;
+<P>Bundan sonra, yaratilmis nesnelerin her birine deger atariz.&nbsp;
+</P><P>p1'de gonderilmis nesnenin Calc Volume() yontemini cagiririz.Bunun
+sonucunda a:&nbsp;
+</P><P>"Volume: 96", ekranda gostyerilecek.&nbsp;
+</P><P>p2'de gonderilmis nesnenin aynisi.A:&nbsp;
+</P><P>"Volume: 450", ekranda gosterilecek.</P></TD>
+</TR>
+</TBODY></TABLE></CENTER>
+p1.CalcVolume() isleme kondugunda Java yorumcusu, kontrolu CalcVolume()
+icinde tanimlanmis koda transfer eder.Bir kez butun kontrol cumleleri isleme
+konuldu, O cagrilan usule geri doner ve isleme konma bir sonraki satirda
+cagriya devam eder.
+<P>Parametrelerle yontemler.Deger donumu.
+</P><P>Yontemlerin cogunlugu, onlari genellestirmek icin birisine izin veren
+parametrelerle kullanilir.Bunun yaninda yontemler donum degerleridir, bu
+yuzden, degisik durumlarda kullanilabilen genis bir seri veriyle calisabilen
+yontemler yapabiliriz.
+</P><P>Ornegimizi degerlendirecegiz:
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="100%" rules="cols">
+<TBODY><TR>
+<TD valign="TOP">Kod</TD>
+
+<TD valign="TOP">Komutlar</TD>
+</TR>
+
+<TR>
+<TD valign="CENTER">
+<PRE>class capacity {
+
+&nbsp; double CalcVolume (double l,&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double a,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double p) {
+
+&nbsp;&nbsp;&nbsp; double volume=l*a*p ;
+
+&nbsp;&nbsp;&nbsp; return volume;
+
+&nbsp; }
+
+}&nbsp;</PRE>
+</TD>
+
+<TD valign="CENTER">Uc parametreyi almak icin CalcVolume yontemi nitelendi.Bir
+cift cesidiyle geri donumu saglamak icin de tanimlanabilir.Bu faaliyet donus
+hacmi ogrenimi tarafindan yerine getirilir.</TD>
+</TR>
+
+<TR>
+<TD valign="CENTER">
+<PRE>class example {
+
+&nbsp; public static void main(String Arg[]){&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp; capacity p1=new capacity();
+
+&nbsp;&nbsp;&nbsp; capacity p2=new capacity();
+
+
+
+&nbsp;&nbsp;&nbsp; double vol;
+
+
+
+&nbsp;&nbsp;&nbsp; vol=p1.CalcVolume(10,3,2);
+
+
+
+&nbsp;&nbsp;&nbsp; System.out.println("Volume: " + vol);&nbsp;&nbsp;
+
+
+
+&nbsp;&nbsp;&nbsp; //
+
+
+
+&nbsp;&nbsp;&nbsp; vol=p2.CalcVolume(25,5,2);
+
+
+
+&nbsp;&nbsp;&nbsp; System.out.println("Volume: " + vol);&nbsp;&nbsp;
+
+&nbsp; }
+
+}&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</PRE>
+</TD>
+
+<TD valign="CENTER">Yonteme cagri, istenen parametrelerin gonderimi
+yapilir."vol" degiskeninde yontemin degeri geri doner ki yontemle ayni
+cesitte olmalidir.</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Siniflarin ana gorunusu yapicilardir.Bu maddeler,bir sinifin nesnesi yaratildiginda 
+ne yaptigini tanimlar.Onlarin cogu, sinif tanimlamalarinin icinde onun kendi
+yapicilarini acikca tanimlar.Bu noktada tanimlanmazsa, Java yanlis yapiciyi
+kullanir(bizim ornegimizdeki gibi). 
+<P>Bir sinifa dahil bir yapici sinifla ayni isme sahiptir.Onu sozdizimi,
+yontemin burasina benzerdir.O, yeni islemci bitirmeden once, nesneyi
+yarattikdan sonra otomatikmen isleme doner. 
+</P><P>Yapicilar hic bir cesidi geri dondurmezler cunku onlar sinif cesitlerini
+geri dondururler.Yapicilar butun nesne durumlarini ilk halleriyle
+yuruturler. Bununla birlikte nesnenin bir ornegini yaratan kod onun
+kullanimin yapmak icin hazir bir nesneye sahiptir.Yanlis olarak, ornek
+degiskenler yepicilar tarafindan ilk hallerine getirilir.Yontemlerle o
+meydana gelirken, yapicilar onlari daha yararli yapmak icin parametreye
+sahip olabilir.Butun bu yeni gorunusleri tasarlamak icin ornegimizi
+niteleyelim. 
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="100%" rules="cols">
+<TBODY><TR>
+<TD valign="TOP">Kod</TD>
+
+<TD valign="TOP">Komutlar</TD>
+</TR>
+
+<TR>
+<TD valign="CENTER">
+<PRE>Class capacity {
+
+&nbsp; double length;
+
+&nbsp; double width;
+
+&nbsp; double height;
+
+
+
+&nbsp; //
+
+&nbsp; capacity(double l,&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double a,&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double p){&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp; length=l;
+
+&nbsp;&nbsp;&nbsp; width=a;
+
+&nbsp;&nbsp;&nbsp; height=p;
+
+&nbsp; }
+
+
+
+&nbsp; //
+
+&nbsp; void CalcVolume () {
+
+&nbsp;&nbsp;&nbsp; double volume ;
+
+&nbsp;&nbsp;&nbsp; volume=large*wide*high;
+
+&nbsp;&nbsp;&nbsp; return volume;
+
+&nbsp; }
+
+}&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</PRE>
+</TD>
+
+<TD valign="CENTER">Bir yapici sinifa eklenebilir ki sinifla ayni isimle, hic
+bir cesitsiz bir yontemin gotrunusune sahiptir.</TD>
+</TR>
+
+<TR>
+<TD valign="TOP">
+<PRE>class example {
+
+&nbsp; public static void main(String Arg[]) {&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp; capacity p1=new capacity(10,5,2);
+
+&nbsp;&nbsp;&nbsp; capacity p2=new capacity(25,6,2);
+
+&nbsp;&nbsp;&nbsp; double vol;
+
+&nbsp;&nbsp;&nbsp; vol=p1.CalcVolume();
+
+&nbsp;&nbsp;&nbsp; System.out.println("Volume: " + vol);&nbsp;&nbsp;
+
+
+
+&nbsp;&nbsp;&nbsp; //
+
+&nbsp;&nbsp;&nbsp; vol=p2.CalcVolume();
+
+&nbsp;&nbsp;&nbsp; System.out.println("Volume: " + vol);&nbsp;&nbsp;
+
+&nbsp; }
+
+}&nbsp;</PRE>
+</TD>
+
+<TD valign="CENTER">Yeni islemci, bu sinifin yapicisina ihtiyac duyulan
+parametreleri onaylarken sini ornelerini yaratir.&nbsp;</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+Bir nesnenin referansi olmazsa, farz edilir ki bu nesne artik
+kullanilmayacak.Bu yuzden hafiza onun beslenmesine ayirir.Nesneleri yikmak
+icin kesin bir neden yok cunku bu yontem program infazina dogru otomatik bir
+tolla yurutulur.
+<P>Yine de, "finalize" yontemi bir sinifa bitirici eklemek icin
+kullanilir.Yorumcu nesneyi yiktiginda bu yontem isleme girer.Bu yontemde
+nesneleri yikmadan once isleme almak icin faaliyetleri icerecegiz.
+</P><P>Yontem Overload.
+</P><P>Polymorphism (bir interface icin bircok yontem) oop'de temel
+PILLARS'lardan biridir.Java polymorphism'i overload yonteminin anlamlari
+tarafindan yerine getirir. 
+</P><P>Degisik yontemler ayni isimle bir sinif icinde tanimlanabilir, fakat
+farkli bir parametre listesi veya en azindan farkli donum cesitlerine sahip
+olmalidir.Overload yontemi cagrildiginda, Java yorumcusu, kullanilacak
+yontemerin versiyonunu ayirt etmek icin cagriyla onaylanmis argumanlari
+ve.veya cesitleri kullanir.
+</P><P>Overloaded yontemi, bu polymorphism'i tamamen imkansiz yapsa da degisik
+gorevleri yerine getirilebilir.Bu yuzden overload bazi iliskileri tercihen
+belitmelidir.Ayni yolla yontemler ve yapicilar da overload yapilabilir. 
+</P><P>Arguman onylama
+</P><P>Genel olarak programlama dilleri argumanlari onaylamak icin iki degisik
+yola izin verir:
+</P><UL>
+<LI>
+Arguman degerinin parametre degiskeni usulundeki bir parametrelerdir.</LI>
+<LI>
+Degerin referansi(hafiza adresi) onaylanir, bu yuzden eger deger usul
+tarafindan nitelenirse,Cagrilan yontemdeki deger de ayrica nitelenir.</LI>
+
+
+
+</UL>
+Java, yontemlere parametre onayinin iki anlamini destekler.Eger argumanlar
+basit bir ceside sahipse, deger tarafindan onaylanir, fakat arguman bir
+nesne ise, referans tarafindan onaylanir. 
+<P>Giris kontrolu
+</P><P>OOP'deki baska bir temel PILLAR ENCAPSULATION'dir.Onu kullanan kodla veri
+birlesimi anlamina gelir.Daha da fazlasi ENCAPSULATION giris kontrolunu
+saglar.Bunu soylemek icin programin bir parcasi sinif uyelerini girmek icin
+yetenege sahip olmalidir.
+</P><P>Java'daki giris ayrintilari 'public', 'private' ve 'protected'dir.
+</P><P>Bir yontem veya bir ornek degisken "public" gibi tanimlandiginda,
+programin diger herhangi bir parcasindan etkilenebilir.Eger "private" olarak
+tanimlanirsa, onun kendi sinifinin diger yontemleri tarafindan
+etkilenebilir.Hatayla butun yontemler veya ornek degiskenler(uyeler)
+"public"tir.(kendi packet¿?)  
+</P><P>The 'protector' belirleyicisi HERENCIAS'la calistiginda kullanilir.(inheritances¿?),
+Ki bir sonraki konudur.
+</P><H4>
+KALIT</H4>
+OOP'yi tanimlayan uc eleman polymorphism,encapsulation ve butun kalitin
+sonudur.Genel bir sinif(super sinif) buna dogru tanimlanabilir.Genel
+karakterlerin bir serisiyle bu uretilmis sinif,bazi diger belirli
+karakterleri eklerken, daha fazla ozel siniflar
+tarafindan kalit alinabilir.
+<P>A super sinifinin ozelliklerini miras alan B sinifini almak icin,B
+tanimlanmasinda koyacagiz.
+<BR>&nbsp;
+</P><CENTER><TABLE border="" cellpadding="5" width="484">
+<TBODY><TR>
+<TD valign="TOP">
+<PRE>Class B extends A {
+
+&nbsp;&nbsp;&nbsp; // class definition
+
+}</PRE>
+</TD>
+</TR>
+</TBODY></TABLE></CENTER>
+B sinifi A super sinifini tamamen icerir, bu kolayca kullanilabilen bir
+AUTONOMOUS sinifidir.Ayrica B sinifi her sinifin super sinifidir.
+<P>Java farkli super siniflardan bir alt sinifa coklu kalita izin vermez.
+</P><P>Eger "private" diye tanimlanan uyeler varsa bunlara kalit siniflarindan
+girilemez.Bir alt sinifin super sinifa girmesi gerektiginde "super" kelimesi
+kullanilabilir.Bu yolla yapiciyi veya alt sinif tarafindan saklanan
+supersinifin uyelerini cagirabiliriz.
+</P><P>Alt sinifin bir yontemi super sinifin yontemi gigi ceside ve ayni isme
+sahipse, yontemin tekrar yazildigi soylenir.Bu ozellik Java'nin en onemli
+goruntu temellerinden "Dynamic selection method" unu kurar.Bu her cagirimda
+hangi yontemin kullanilacagi kararinin ilk degisken cesidine bagimli olarak
+yururlige kondugu anda yerine getirilecegi analamina gelir.
+</P><P>Bir sonraki makalede kalit'in gucunu abstact siniflari ,interfaceler vb.
+konularla gorucegiz.In the next article we will see all the power of inheritance, with abstract
+classes, interfaces, etc.
+</P><H3>
+Referanslar</H3>
+
+<UL>
+<LI>
+<B><I>JAVA reference manual</I></B>. Patrick Naughton Herbert Schildt.
+Mcgraw-Hill.</LI>
+
+<LI>
+<B><I>Programming with JAVA</I></B>. Tim Ritchey. Prentice Hall.</LI>
+
+<LI>
+<B><I>Java Tutorial</I></B>. Spanish manual in HTML format obtained from
+the address <A href="http://www.fie.us.es/info/internet/JAVA">www.fie.us.es/info/internet/JAVA</A>.
+Agustín Froufe.</LI>
+
+<LI>
+<B><I>The Java Tutorial</I></B>. English manual in HTML format obtained
+from the address <A href="http://www.javasoft.com/">www.javasoft.com</A>.
+Sun.</LI>
+
+<LI>
+<B><I>JDK own installation tutorials</I></B>.</LI>
+
+<LI>
+<B><I>Java client-server</I></B>.Cédric Nicolas, Chistophe Avare
+y Frederic Najman. Gestión 2000.</LI>
+</UL>
+
+<HR size="1" noshade="">
+<DIV align="right"><I>Yazının dergiye gönderilen aslı İspanyolcadır,
+İngilizce'ye <A href="mailto:jcano@iti.upv.es">Javier
+Cano</A> tarafından çevrilmiştir.</I></DIV>
+<!-- ARTICLE FOOT -->
+<CENTER><TABLE width="95%">
+<TBODY><TR>
+<TD align="CENTER" bgcolor="#666666"><FONT color="#FFFFFF">Bu sanalyörenin
+bakımı Miguel Ángel Sepúlveda tarafından
+yapılmaktadır.</FONT><BR><FONT color="#FFFFFF">© Jose M. Fernandez 1998</FONT>
+<BR><B><FONT color="#FFFFFF">LinuxFocus 1998</FONT></B></TD>
+</TR>
+</TBODY></TABLE></CENTER>
+
+
+
+</OL></BODY></HTML>

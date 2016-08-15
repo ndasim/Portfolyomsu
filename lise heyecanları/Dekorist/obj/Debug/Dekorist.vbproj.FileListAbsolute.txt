@@ -1,0 +1,133 @@
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\bin\Debug\Dekorist.exe
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\bin\Debug\Dekorist.pdb
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\bin\Debug\Dekorist.xml
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\obj\Debug\Dekorist.Form1.resources
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\obj\Debug\Dekorist.Resources.resources
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\obj\Debug\Dekorist.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\obj\Debug\Dekorist.exe
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\obj\Debug\Dekorist.xml
+C:\Users\Ev Bilgisayarı\AppData\Local\Temporary Projects\Dekorist\obj\Debug\Dekorist.pdb
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.exe
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.xml
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.pdb
+C:\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe
+C:\ADN Yazılım\Dekorist\bin\Debug\Dekorist.pdb
+C:\ADN Yazılım\Dekorist\bin\Debug\Dekorist.xml
+C:\ADN Yazılım\Dekorist\obj\Debug\ResolveAssemblyReference.cache
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Form1.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Resources.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.GenerateResource.Cache
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hoşgeldiniz.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.çizim_tarlası.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.profil.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_proje.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\UserControl1.baml
+C:\ADN Yazılım\Dekorist\obj\Debug\UserControl1.g.vb
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist_MarkupCompile.cache
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.g.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.ana_server.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.ResolveComReference.cache
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.rapor.resources
+C:\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe.config
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.MDIParent1.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_değer.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hazırlanıyor.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.araçlar.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Rapor_Hazırlama.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Raporadımı1.resources
+C:\ADN Yazılım\Dekorist\obj\Debug\Dekorist.geliştirici.resources
+C:\ATI\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe.config
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.ResolveComReference.cache
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.exe
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.xml
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.pdb
+C:\ATI\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe
+C:\ATI\ADN Yazılım\Dekorist\bin\Debug\Dekorist.pdb
+C:\ATI\ADN Yazılım\Dekorist\bin\Debug\Dekorist.xml
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\ResolveAssemblyReference.cache
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\UserControl1.baml
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\UserControl1.g.vb
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist_MarkupCompile.cache
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.g.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.araçlar.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.ana_server.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Form1.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.geliştirici.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hazırlanıyor.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hoşgeldiniz.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.MDIParent1.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Resources.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.profil.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Rapor_Hazırlama.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.rapor.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Raporadımı1.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_değer.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_proje.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.çizim_tarlası.resources
+C:\ATI\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe.config
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.ResolveComReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\UserControl1.baml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\UserControl1.g.vb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist_MarkupCompile.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.g.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.araçlar.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.ana_server.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Form1.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.geliştirici.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hazırlanıyor.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hoşgeldiniz.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.MDIParent1.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Resources.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.profil.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Rapor_Hazırlama.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.rapor.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Raporadımı1.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_değer.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_proje.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.çizim_tarlası.resources
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.sunucu.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe.config
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.ResolveComReference.cache
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.exe
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.xml
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.pdb
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.pdb
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\bin\Debug\Dekorist.xml
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\ResolveAssemblyReference.cache
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\UserControl1.baml
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\UserControl1.g.vb
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist_MarkupCompile.cache
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.g.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.araçlar.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.ana_server.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Form1.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.geliştirici.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hazırlanıyor.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.hoşgeldiniz.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.MDIParent1.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Resources.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.profil.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Rapor_Hazırlama.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.rapor.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.Raporadımı1.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.sunucu.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_değer.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.yeni_proje.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.çizim_tarlası.resources
+C:\MasaÜstü\maüstü geri dönüşüm\ADN Yazılım\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.GenerateResource.Cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Dekorist\bin\Debug\Dekorist.exe.config
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Dekorist\obj\Debug\Dekorist.vbproj.ResolveComReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Dekorist\obj\Debug\Dekorist.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Dekorist\obj\Debug\Dekorist.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\Dekorist\obj\Debug\Dekorist.pdb

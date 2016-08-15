@@ -1,0 +1,15 @@
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\metal_tank_savaşı.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\metal_tank_savaşı.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\obj\x86\Debug\metal_tank_savaşı.exe
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\obj\x86\Debug\metal_tank_savaşı.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\fizik_motoru.dll
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\fizik_motoru.pdb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\fizik_motoru.xml
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\Content\standart.xnb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\Content\tank-gövde.xnb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\Content\boş.xnb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\Content\seçim.xnb
+C:\Users\Ev Bilgisayarı\Desktop\ADN Yazılım\metal_tank_savaşı\metal_tank_savaşı\bin\x86\Debug\Content\hedef belirtme.xnb

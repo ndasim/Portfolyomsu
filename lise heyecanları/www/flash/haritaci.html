@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Haritacı</title>
+		<script>
+			
+			var genislik = 52;
+			var yukseklik = 40; 
+			
+			var kre_yukseklik = 0;
+			var kre_genislik = 0;
+			
+			var noktalar = new Array;
+			var gurup_renk = new Array();
+			
+			function basla(){
+				duzlem_kur();		
+			}
+			
+			function duzlem_kur(){
+				
+			}
+			
+			function nokta(x,y,gurup_id){
+				this.id = x + "" + y;
+				this.gurup = gurup_id;
+				
+				this.sınır_kontrol = function (){
+					// Sağ-Sol-Üst-Alt yanlarda kalan noktaların gurupdaş 												olmasına göre araya çizgi konulur	
+				}
+				
+				this.kur = function(){
+					var nsne = document.getElementById("calısma");
+					nsne.innerHTML += '<div id="'+ this.id + '"  ;	
+				}		
+			}
+			
+			function kaydet(){
+			
+			}
+			
+			function tıkla(){
+				
+			}
+			
+			function sınır_yenile(){
+				
+			}
+			
+		</script>
+	</head>
+	<body onLoad="basla()">
+		<div id="calısma" style="position:absolute; height:800px; width:1000px; background-color:#09F">	
+        
+        </div>		
+	</body>
+</html>

@@ -1,0 +1,127 @@
+﻿<html>
+    <head>
+        <title></title>
+
+        <script language="javascript">
+            
+            var kayt = new Array; // İşaretlenen şıklar bu dizi değişkeninin içine kaydedilecektir boş işaretlemeler 0 ifadesiyle gösterilmektedir..
+            var baglanti = false; // Ajax bağlantısı için ayrılmış değişken
+			
+            function basla(){ // Sayfanın ön değişkenleri ve buton haritası oluştuuruluyor...
+                
+                // Her soru için gizli butonlar oluşturuluyor...
+                for (var i = 1; i < 2; i++){
+                    var yazilacak = sorular(100,100,1);
+                    
+                    document.body.innerHTML = yazilacak;
+                    kayt[i] = 0; // Ön tanımlı soru cevabı kaydediliyor // sunucuya gönderilmek üzere
+                }
+				
+				baglanti_kur();
+                
+            }
+            
+			function isaretle(soru_no,nsne,deger){ // Herhangi bir gizli butona tıklandığında bu fonksiyon sayesinde işaretleme ve kaydetme işlemi gerçekleştirilecek       
+                /*
+                    soru_no: Hangi soru için işlem yapıldığı
+                    nsne_id: Aynı zamanda içinde soru no'yuda bulunduran her şık için benzersiz olarak ayarlanmış nesne adıdır
+                    deger: Hangi şıkkın işaretlendiğini belirten değişken 1 den 5'e kadar değer alır 1=A,2=B şeklinde...
+                */ 
+                
+                /* Prensip:
+                    Öncelikli olarak tıklanılan öğenin id'si öğrenilir öğrenilen bu id ile
+                    html nesnesi tespit edilir ve background-image değeri ile işaretlenen şıkkın 
+                    arka plan resmi işaretlenmiş gibi gösterecek olan resimle değiştirilir ve kaydı yapılır
+                    
+                    Eğer daha önceden tıklanmış şıkka tıklanılmışsa bu sefer işlem tersine çevrilir...
+                */
+                
+                //var nsne = document.getElementById(nsne_id); // fonksiyona verilen id'den html nesnesi tüm özellikleriyle bir değişkene aktarılıyor
+                
+                // Aynı şıkka tekrar tıklanırsa o şık'ın değerii kaldırılır yani boş olarak gösterilir
+                if (kayt[soru_no] == deger){ // Aynı şıkka tıklanma olasılığı...
+                    
+                    // Nesnenin arkaplanının kaldırılması;
+                    nsne.style.background = "";
+                    
+                    // Kaydının 0 olarak değiştirlmesi...
+                    kayt[soru_no] = 0;
+                }
+                else{
+                    // Üstdeki koşul gerçekleşmemişse şık işareretlenmiş olarak kaydedilir...
+                    // Nesnenin Sunucuya gönderilmek üzere kaydedilmesi...
+                    // Nesnenin arkaplanının değiştirilmesi;
+                    nsne.style.background = "url(kaynaklar/tik.png)";
+                    kayt[soru_no] = deger;
+                }
+				
+				gonder();
+            }
+            
+            function sorular(konumx,konumy,soru_no){ // Her Soru için kullanılacak olan ve şıkların yerine geçecek olan buton sınıfıdır...
+                
+                var buton_aralik = 20; // Her butonun aralığı kullanılacak olan soru resmindeki şıkların konumuna göre değişebilir
+                
+                var donut = ""; // Yazdırılacak olan html kodudur
+            
+                // Ana div etiketimiz
+                donut += '<div id="s' + soru_no + '" style="position:absolute; left:' + konumx + 'px; top:' + konumy + 'px;" >';
+                
+                // Butonları olusturma...
+                
+                // A butonu
+                donut += '<div id="s' + soru_no + 'butonA" onclick="isaretle('+ soru_no +',s' + soru_no + 'butonA,1)" style="position:absolute; left:20px; top:20px; height:50px; width:50px; background-color:#CC6600;" ></div>';
+            
+                return donut;
+            }
+            
+			function gonder(){
+				baglanti.open('GET', "sunucu.php", true); // Veri gönderme ön hazırlık url ve gönderme methodu ayarlanması
+				baglanti.send(null); // Hazırlanan verinin gönderimi eğer Post verisi gönderilecekse null değeri yerine form nesnesi konulacak
+			}
+			
+			function baglanti_kur() { // Gerekli olan tüm ajax bağlantıları oluşturuluyor
+			
+				// Hemen hemen her türlü tarayıcıda ajax methodunu kullanmak için baglanti nesnesi ayarlanıyor
+				if (window.XMLHttpRequest) { // Mozilla, Chrome, Safari,...
+					baglanti = new XMLHttpRequest();
+					if (baglanti.overrideMimeType) { // Gönderilecek olan verilerin Header(Başlık) öğelerinin ayarlanması
+						baglanti.overrideMimeType('text/xml');
+						
+					}
+				} else if (window.ActiveXObject) { // IE
+					try {
+						baglanti = new ActiveXObject("Msxml2.XMLHTTP");
+					} catch (e) {
+						try {
+							baglanti = new ActiveXObject("Microsoft.XMLHTTP");
+						} catch (e) {}
+					}
+				}
+
+				if (!baglanti) { // Halen daha baglanti nesnesinin false olup olmadığı kontrol ediliyor
+					alert('Üzgünüz ama web tarayıcınız ajax methodunu desteklemiyor lütfen güncel bir tarayıcıyla deneyin');
+					return false;
+				}
+				baglanti.onreadystatechange = function() { sunucu_yanıtı(); }; // Sunucudan yanıt geldiği zaman çalıştırılacak fonksiyon
+			}
+
+			function sunucu_yanıtı() {
+
+				if (baglanti.readyState == 4) { // 4 Syfanın tam olarak yüklendiğini belirtir
+					if (baglanti.status == 200) { // 200 ise sayfanın kusursuzca yorumlandığını ve tamamen hazır olduğunu belirtir
+						alert(baglanti.responseText);
+					} else {
+						alert('Malesef Veri gönderim-alımı sırasında bir hatayla karşılaşılaşıldı :(');
+					}
+				}
+
+			}
+
+        </script>
+		
+    </head>
+    <body onload="basla()" >
+		<b href="" onclick="leyn">asasas</b>
+    </body>
+</html>
